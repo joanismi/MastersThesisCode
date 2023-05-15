@@ -1,0 +1,1555 @@
+drug_id,drug,isApproved,maximumClinicalTrialPhase,drugType,target,type,is_curated
+CHEMBL1200330,PILOCARPINE HYDROCHLORIDE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL517712,ATROPINE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL550,PILOCARPINE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1231,OXYBUTYNIN,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1382,TOLTERODINE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL3545181,TIOTROPIUM BROMIDE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1201335,GLYCOPYRRONIUM,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL2146146,ATROPINE SULFATE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1900528,TIOTROPIUM,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1482,BETHANECHOL,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1734,SOLIFENACIN,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1200803,SOLIFENACIN SUCCINATE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1201764,FESOTERODINE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1201027,GLYCOPYRROLATE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1133,OXYBUTYNIN CHLORIDE,True,4,Small molecule,CHRM3,cancer,yes
+CHEMBL1256786,FORMOTEROL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL434394,NEBIVOLOL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL649,NADOLOL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL768,ESMOLOL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL211456,EPHEDRINE,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL1671,PROPRANOLOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL499,TIMOLOL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL3989798,FORMOTEROL FUMARATE,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL723,CARVEDILOL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL714,ALBUTEROL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL27,PROPRANOLOL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL434,ISOPROTERENOL,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL1437,NOREPINEPHRINE,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL1200870,TIMOLOL MALEATE,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL1201167,CARVEDILOL PHOSPHATE,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL679,EPINEPHRINE,True,4,Small molecule,ADRB2,cancer,yes
+CHEMBL1422,SITAGLIPTIN,True,4,Small molecule,DPP4,cancer,yes
+CHEMBL237500,LINAGLIPTIN,True,4,Small molecule,DPP4,cancer,yes
+CHEMBL3707235,GEMIGLIPTIN,False,3,Small molecule,DPP4,cancer,yes
+CHEMBL1645462,AC-480,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL2103842,VARLITINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL3545002,MP-412,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL3545235,SIMOTINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL4297661,TARLOXOTINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL4297866,ABIVERTINIB MALEATE,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL2108359,NIMOTUZUMAB,False,3,Antibody,EGFR,cancer,yes
+CHEMBL3353410,OSIMERTINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL4297842,TOMUZOTUXIMAB,False,2,Antibody,EGFR,cancer,yes
+CHEMBL598797,CUDC-101,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL2105719,DACOMITINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL31965,CANERTINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL4650279,BDTX189,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL4650289,KBP5209,False,1,Unknown,EGFR,cancer,yes
+CHEMBL2110732,DACOMITINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL3544983,TESEVATINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL545315,CANERTINIB DIHYDROCHLORIDE,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL607707,PELITINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL3137345,DULIGOTUZUMAB,False,2,Antibody,EGFR,cancer,yes
+CHEMBL4650281,CLN-081,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL1201827,PANITUMUMAB,True,4,Antibody,EGFR,cancer,yes
+CHEMBL258940,FALNIDAMOL,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL4297774,AMIVANTAMAB,True,4,Antibody,EGFR,cancer,yes
+CHEMBL553,ERLOTINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL2109389,IMGATUZUMAB,False,2,Antibody,EGFR,cancer,yes
+CHEMBL4297258,ALFLUTINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL554,LAPATINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL3707294,DEPATUXIZUMAB,False,2,Antibody,EGFR,cancer,yes
+CHEMBL4650290,GC1118,False,2,Antibody,EGFR,cancer,yes
+CHEMBL3989921,NERATINIB MALEATE,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL3989970,MAVELERTINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL1079742,ERLOTINIB HYDROCHLORIDE,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL1947204,ALLITINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL3545154,POZIOTINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL3663929,NAQUOTINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL3786098,PF-06459988,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL2109391,MDX-447,False,2,Antibody,EGFR,cancer,yes
+CHEMBL3545121,EPITINIB,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL4650319,MOBOCERTINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL939,GEFITINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL3545180,THELIATINIB,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL2107863,RINDOPEPIMUT,False,3,Unknown,EGFR,cancer,yes
+CHEMBL4594354,ALMONERTINIB,False,3,Unknown,EGFR,cancer,yes
+CHEMBL587723,AEE-788,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL180022,NERATINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL2109390,MAB-425,False,2,Antibody,EGFR,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL3545396,BMS-690514,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL3544956,PYROTINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL1743047,NECITUMUMAB,True,4,Antibody,EGFR,cancer,yes
+CHEMBL2029988,CEP-32496,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL2105712,AFATINIB DIMALEATE,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL4297865,ABIVERTINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL4298088,CETUXIMAB SAROTALOCAN,False,1,Antibody,EGFR,cancer,yes
+CHEMBL3545311,BRIGATINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL3623290,AZD-3759,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL2108038,MATUZUMAB,False,2,Antibody,EGFR,cancer,yes
+CHEMBL3545133,JNJ-26483327,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL1173655,AFATINIB,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL1201577,CETUXIMAB,True,4,Antibody,EGFR,cancer,yes
+CHEMBL2109388,FUTUXIMAB,False,3,Antibody,EGFR,cancer,yes
+CHEMBL3787344,NAZARTINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL2107861,ZALUTUMUMAB,False,3,Antibody,EGFR,cancer,yes
+CHEMBL3545063,OSIMERTINIB MESYLATE,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL2408045,SAPITINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL1201179,LAPATINIB DITOSYLATE,True,4,Small molecule,EGFR,cancer,yes
+CHEMBL3707277,DEPATUXIZUMAB MAFODOTIN,False,3,Antibody,EGFR,cancer,yes
+CHEMBL3786343,OLMUTINIB,False,2,Small molecule,EGFR,cancer,yes
+CHEMBL2087361,ICOTINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL1614725,TAK-285,False,1,Small molecule,EGFR,cancer,yes
+CHEMBL3678958,SKLB1028,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL3545308,ROCILETINIB,False,3,Small molecule,EGFR,cancer,yes
+CHEMBL1645462,AC-480,False,1,Small molecule,ERBB4,cancer,yes
+CHEMBL4297661,TARLOXOTINIB,False,2,Small molecule,ERBB4,cancer,yes
+CHEMBL2105719,DACOMITINIB,True,4,Small molecule,ERBB4,cancer,yes
+CHEMBL31965,CANERTINIB,False,3,Small molecule,ERBB4,cancer,yes
+CHEMBL4650289,KBP5209,False,1,Unknown,ERBB4,cancer,yes
+CHEMBL2110732,DACOMITINIB,True,4,Small molecule,ERBB4,cancer,yes
+CHEMBL545315,CANERTINIB DIHYDROCHLORIDE,False,3,Small molecule,ERBB4,cancer,yes
+CHEMBL3989921,NERATINIB MALEATE,True,4,Small molecule,ERBB4,cancer,yes
+CHEMBL3545154,POZIOTINIB,False,2,Small molecule,ERBB4,cancer,yes
+CHEMBL180022,NERATINIB,True,4,Small molecule,ERBB4,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,ERBB4,cancer,yes
+CHEMBL3545396,BMS-690514,False,2,Small molecule,ERBB4,cancer,yes
+CHEMBL2105712,AFATINIB DIMALEATE,True,4,Small molecule,ERBB4,cancer,yes
+CHEMBL3545133,JNJ-26483327,False,1,Small molecule,ERBB4,cancer,yes
+CHEMBL1173655,AFATINIB,True,4,Small molecule,ERBB4,cancer,yes
+CHEMBL1645462,AC-480,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL2103842,VARLITINIB,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL3545002,MP-412,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL4297661,TARLOXOTINIB,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL1201585,TRASTUZUMAB,True,4,Antibody,ERBB2,cancer,yes
+CHEMBL1743082,TRASTUZUMAB EMTANSINE,True,4,Antibody,ERBB2,cancer,yes
+CHEMBL2364649,MARGETUXIMAB,True,4,Antibody,ERBB2,cancer,yes
+CHEMBL598797,CUDC-101,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL2105719,DACOMITINIB,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL31965,CANERTINIB,False,3,Small molecule,ERBB2,cancer,yes
+CHEMBL3989868,TUCATINIB,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL4650279,BDTX189,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL4650289,KBP5209,False,1,Unknown,ERBB2,cancer,yes
+CHEMBL2110732,DACOMITINIB,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL3544983,TESEVATINIB,False,3,Small molecule,ERBB2,cancer,yes
+CHEMBL3545111,HEMAY-022,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL4298025,ZENOCUTUZUMAB,False,2,Antibody,ERBB2,cancer,yes
+CHEMBL545315,CANERTINIB DIHYDROCHLORIDE,False,3,Small molecule,ERBB2,cancer,yes
+CHEMBL1614707,MUBRITINIB,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL554,LAPATINIB,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL3989921,NERATINIB MALEATE,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL1947204,ALLITINIB,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL3545154,POZIOTINIB,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL4297556,MM-111,False,2,Unknown,ERBB2,cancer,yes
+CHEMBL4297844,TRASTUZUMAB DERUXTECAN,True,4,Antibody,ERBB2,cancer,yes
+CHEMBL4298178,TRASTUZUMAB DUOCARMAZINE,False,3,Antibody,ERBB2,cancer,yes
+CHEMBL587723,AEE-788,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL180022,NERATINIB,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL2109399,T-DM1,False,3,Antibody,ERBB2,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL3545396,BMS-690514,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL3544956,PYROTINIB,False,3,Small molecule,ERBB2,cancer,yes
+CHEMBL2105712,AFATINIB DIMALEATE,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL2007641,PERTUZUMAB,True,4,Antibody,ERBB2,cancer,yes
+CHEMBL3545133,JNJ-26483327,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL1173655,AFATINIB,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL2408045,SAPITINIB,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL1201179,LAPATINIB DITOSYLATE,True,4,Small molecule,ERBB2,cancer,yes
+CHEMBL2108029,ERTUMAXOMAB,False,2,Antibody,ERBB2,cancer,yes
+CHEMBL3833344,GANCOTAMAB,False,2,Antibody,ERBB2,cancer,yes
+CHEMBL483321,CP-724714,False,2,Small molecule,ERBB2,cancer,yes
+CHEMBL1614725,TAK-285,False,1,Small molecule,ERBB2,cancer,yes
+CHEMBL1743014,ETARACIZUMAB,False,2,Antibody,ITGB3,cancer,yes
+CHEMBL429876,CILENGITIDE,False,3,Protein,ITGB3,cancer,yes
+CHEMBL4297456,ATN-161,False,2,Protein,ITGB3,cancer,yes
+CHEMBL1743014,ETARACIZUMAB,False,2,Antibody,ITGAV,cancer,yes
+CHEMBL429876,CILENGITIDE,False,3,Protein,ITGAV,cancer,yes
+CHEMBL4297456,ATN-161,False,2,Protein,ITGAV,cancer,yes
+CHEMBL1743032,INTETUMUMAB,False,2,Antibody,ITGAV,cancer,yes
+CHEMBL2109621,ABITUZUMAB,False,2,Antibody,ITGAV,cancer,yes
+CHEMBL2109623,STX-100,False,2,Antibody,ITGAV,cancer,yes
+CHEMBL2109633,IMGN-388,False,1,Antibody,ITGAV,cancer,yes
+CHEMBL1706,NAPHAZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1200339,PHENYLEPHRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL211456,EPHEDRINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL761,NAPHAZOLINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL723,CARVEDILOL,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1200873,PHENTOLAMINE MESYLATE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL762,OXYMETAZOLINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1215,PHENYLEPHRINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL709,ALFUZOSIN,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1200787,PHENOXYBENZAMINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1437,NOREPINEPHRINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1266,TETRAHYDROZOLINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL597,PHENTOLAMINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL707,DOXAZOSIN,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1200413,TETRAHYDROZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1723,ALFUZOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL3989562,TERAZOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL836,TAMSULOSIN,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL611,TERAZOSIN,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1200561,DOXAZOSIN MESYLATE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1201167,CARVEDILOL PHOSPHATE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL679,EPINEPHRINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL753,PHENOXYBENZAMINE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1200914,TAMSULOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1B,cancer,yes
+CHEMBL1706,NAPHAZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1200339,PHENYLEPHRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL211456,EPHEDRINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL761,NAPHAZOLINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL723,CARVEDILOL,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1200873,PHENTOLAMINE MESYLATE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL762,OXYMETAZOLINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1215,PHENYLEPHRINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL709,ALFUZOSIN,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1200787,PHENOXYBENZAMINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1437,NOREPINEPHRINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1266,TETRAHYDROZOLINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL24778,SILODOSIN,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL597,PHENTOLAMINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL707,DOXAZOSIN,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1200413,TETRAHYDROZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1723,ALFUZOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL3989562,TERAZOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL836,TAMSULOSIN,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL611,TERAZOSIN,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1200561,DOXAZOSIN MESYLATE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1201167,CARVEDILOL PHOSPHATE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL679,EPINEPHRINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL753,PHENOXYBENZAMINE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1200914,TAMSULOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1A,cancer,yes
+CHEMBL1706,NAPHAZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL211456,EPHEDRINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL761,NAPHAZOLINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL1079,TIZANIDINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL1200873,PHENTOLAMINE MESYLATE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL762,OXYMETAZOLINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL2062257,BRIMONIDINE TARTRATE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL654,MIRTAZAPINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL1200787,PHENOXYBENZAMINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL778,DEXMEDETOMIDINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL1437,NOREPINEPHRINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL1266,TETRAHYDROZOLINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL597,PHENTOLAMINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL1200413,TETRAHYDROZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL134,CLONIDINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL679,EPINEPHRINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL753,PHENOXYBENZAMINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL844,BRIMONIDINE,True,4,Small molecule,ADRA2A,cancer,yes
+CHEMBL4298092,GLOFITAMAB,False,3,Antibody,CD3E,cancer,no
+CHEMBL4594505,TECLISTAMAB,False,2,Antibody,CD3E,cancer,no
+CHEMBL2109372,MEDI-565,False,1,Antibody,CD3E,cancer,no
+CHEMBL2108581,CATUMAXOMAB,True,4,Antibody,CD3E,cancer,no
+CHEMBL1201608,MUROMONAB-CD3,True,4,Antibody,CD3E,cancer,no
+CHEMBL2108811,VISILIZUMAB,False,3,Antibody,CD3E,cancer,no
+CHEMBL4297788,MOSUNETUZUMAB,False,3,Antibody,CD3E,cancer,no
+CHEMBL4298084,ODRONEXTAMAB,False,2,Antibody,CD3E,cancer,no
+CHEMBL3990038,FLOTETUZUMAB,False,2,Antibody,CD3E,cancer,no
+CHEMBL4650393,EPCORITAMAB,False,3,Antibody,CD3E,cancer,no
+CHEMBL1742992,BLINATUMOMAB,True,4,Antibody,CD3E,cancer,no
+CHEMBL2108029,ERTUMAXOMAB,False,2,Antibody,CD3E,cancer,no
+CHEMBL4297809,ELRANATAMAB,False,2,Antibody,CD3E,cancer,no
+CHEMBL4594503,TALQUETAMAB,False,2,Antibody,CD3E,cancer,no
+CHEMBL2109617,HUMAX-IL8,False,2,Antibody,CXCL8,cancer,yes
+CHEMBL2133806,JNJ-38877605,False,1,Small molecule,MET,cancer,yes
+CHEMBL3545365,ALTIRATINIB,False,1,Small molecule,MET,cancer,yes
+CHEMBL2323775,MK-8033,False,1,Small molecule,MET,cancer,yes
+CHEMBL3334567,SAVOLITINIB,False,3,Small molecule,MET,cancer,yes
+CHEMBL3545212,AMG-337,False,2,Small molecule,MET,cancer,yes
+CHEMBL496102,AMG-208,False,2,Small molecule,MET,cancer,yes
+CHEMBL1743051,ONARTUZUMAB,False,3,Antibody,MET,cancer,yes
+CHEMBL3545325,SAR-125844,False,2,Small molecule,MET,cancer,yes
+CHEMBL2105717,CABOZANTINIB,True,4,Small molecule,MET,cancer,yes
+CHEMBL3990032,TELISOTUZUMAB VEDOTIN,False,3,Antibody,MET,cancer,yes
+CHEMBL2103868,CABOZANTINIB S-MALATE,True,4,Small molecule,MET,cancer,yes
+CHEMBL4297774,AMIVANTAMAB,True,4,Antibody,MET,cancer,yes
+CHEMBL2103851,AMUVATINIB,False,2,Small molecule,MET,cancer,yes
+CHEMBL3402762,TEPOTINIB,True,4,Small molecule,MET,cancer,yes
+CHEMBL460702,BMS-777607,False,2,Small molecule,MET,cancer,yes
+CHEMBL3301578,EMIBETUZUMAB,False,2,Antibody,MET,cancer,yes
+CHEMBL2103882,TIVANTINIB,False,3,Small molecule,MET,cancer,yes
+CHEMBL4594292,TEPOTINIB HYDROCHLORIDE,True,4,Small molecule,MET,cancer,yes
+CHEMBL3984441,NINGETINIB,False,0,Small molecule,MET,cancer,yes
+CHEMBL3545050,BMS-817378,False,1,Small molecule,MET,cancer,yes
+CHEMBL3545307,MERESTINIB,False,2,Small molecule,MET,cancer,yes
+CHEMBL1236107,SGX-523,False,1,Small molecule,MET,cancer,yes
+CHEMBL3989937,CAPMATINIB HYDROCHLORIDE,True,4,Small molecule,MET,cancer,yes
+CHEMBL1230609,FORETINIB,False,2,Small molecule,MET,cancer,yes
+CHEMBL1822792,MK-2461,False,2,Small molecule,MET,cancer,yes
+CHEMBL3989914,GLESATINIB,False,2,Small molecule,MET,cancer,yes
+CHEMBL3545419,TELISOTUZUMAB,False,1,Antibody,MET,cancer,yes
+CHEMBL3545053,EMD-1204831,False,1,Small molecule,MET,cancer,yes
+CHEMBL3545236,BPI-9016,False,1,Small molecule,MET,cancer,yes
+CHEMBL3039525,GOLVATINIB,False,2,Small molecule,MET,cancer,yes
+CHEMBL3188267,CAPMATINIB,True,4,Small molecule,MET,cancer,yes
+CHEMBL2001019,PF-04217903,False,1,Small molecule,MET,cancer,yes
+CHEMBL601719,CRIZOTINIB,True,4,Small molecule,MET,cancer,yes
+CHEMBL957,BOSENTAN,True,4,Small molecule,EDNRA,cancer,yes
+CHEMBL1111,AMBRISENTAN,True,4,Small molecule,EDNRA,cancer,yes
+CHEMBL1628688,ZIBOTENTAN,False,3,Small molecule,EDNRA,cancer,yes
+CHEMBL2107760,NEBENTAN,False,2,Small molecule,EDNRA,cancer,yes
+CHEMBL2103873,MACITENTAN,True,4,Small molecule,EDNRA,cancer,yes
+CHEMBL9194,ATRASENTAN,False,3,Small molecule,EDNRA,cancer,yes
+CHEMBL2106068,ATRASENTAN HYDROCHLORIDE,False,3,Small molecule,EDNRA,cancer,yes
+CHEMBL957,BOSENTAN,True,4,Small molecule,EDNRB,cancer,yes
+CHEMBL1111,AMBRISENTAN,True,4,Small molecule,EDNRB,cancer,yes
+CHEMBL2103873,MACITENTAN,True,4,Small molecule,EDNRB,cancer,yes
+CHEMBL2108508,INTERFERON ALFA-2A,True,4,Protein,IFNAR1,cancer,no
+CHEMBL1201560,PEGINTERFERON ALFA-2A,True,4,Protein,IFNAR1,cancer,no
+CHEMBL4297819,ROPEGINTERFERON ALFA-2B,True,4,Unknown,IFNAR1,cancer,no
+CHEMBL1201561,PEGINTERFERON ALFA-2B,True,4,Protein,IFNAR1,cancer,no
+CHEMBL1201558,INTERFERON ALFA-2B,True,4,Protein,IFNAR1,cancer,no
+CHEMBL252164,LUMINESPIB,False,2,Small molecule,HSP90AA1,cancer,no
+CHEMBL1214827,ONALESPIB,False,2,Small molecule,HSP90AA1,cancer,no
+CHEMBL1184904,RETASPIMYCIN,False,3,Small molecule,HSP90AA1,cancer,no
+CHEMBL383824,ALVESPIMYCIN,False,2,Small molecule,HSP90AA1,cancer,no
+CHEMBL467399,BIIB021,False,2,Small molecule,HSP90AA1,cancer,no
+CHEMBL1195136,SNX 5422,False,2,Small molecule,HSP90AA1,cancer,no
+CHEMBL109480,TANESPIMYCIN,False,3,Small molecule,HSP90AA1,cancer,no
+CHEMBL2103879,GANETESPIB,False,3,Small molecule,HSP90AA1,cancer,no
+CHEMBL377559,RETASPIMYCIN HYDROCHLORIDE,False,3,Small molecule,HSP90AA1,cancer,no
+CHEMBL4297717,CD24FC,False,3,Unknown,HSP90AA1,cancer,no
+CHEMBL270995,BRIVANIB ALANINATE,False,3,Small molecule,FGFR2,cancer,yes
+CHEMBL4650297,HMPL-453,False,2,Unknown,FGFR2,cancer,yes
+CHEMBL377300,BRIVANIB,False,3,Small molecule,FGFR2,cancer,yes
+CHEMBL3545376,ERDAFITINIB,True,4,Small molecule,FGFR2,cancer,yes
+CHEMBL3184679,AZD-4547,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL3545285,XL-999,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL4297522,PEMIGATINIB,True,4,Small molecule,FGFR2,cancer,yes
+CHEMBL3701238,FUTIBATINIB,False,3,Small molecule,FGFR2,cancer,yes
+CHEMBL1201821,PALIFERMIN,True,4,Protein,FGFR2,cancer,yes
+CHEMBL274654,ORANTINIB,False,3,Small molecule,FGFR2,cancer,yes
+CHEMBL1834657,INFIGRATINIB PHOSPHATE,True,4,Small molecule,FGFR2,cancer,yes
+CHEMBL4650293,APRUTUMAB IXADOTIN,False,1,Antibody,FGFR2,cancer,yes
+CHEMBL1980391,RG-1530,False,1,Small molecule,FGFR2,cancer,yes
+CHEMBL3545264,LY-2874455,False,1,Small molecule,FGFR2,cancer,yes
+CHEMBL1852688,INFIGRATINIB,True,4,Small molecule,FGFR2,cancer,yes
+CHEMBL3907479,FGFR INHIBITOR DEBIO 1347,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL2220486,LUCITANIB,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,FGFR2,cancer,yes
+CHEMBL3686884,E-7090,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL52885,ENMD-981693,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,FGFR2,cancer,yes
+CHEMBL3963485,ROGARATINIB,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL4297187,DERAZANTINIB,False,2,Small molecule,FGFR2,cancer,yes
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,FGFR2,cancer,yes
+CHEMBL270995,BRIVANIB ALANINATE,False,3,Small molecule,FGFR3,cancer,yes
+CHEMBL4650297,HMPL-453,False,2,Unknown,FGFR3,cancer,yes
+CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL377300,BRIVANIB,False,3,Small molecule,FGFR3,cancer,yes
+CHEMBL3545376,ERDAFITINIB,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL477772,PAZOPANIB,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL522892,DOVITINIB,False,3,Small molecule,FGFR3,cancer,yes
+CHEMBL3184679,AZD-4547,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL3545285,XL-999,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL1908391,MASITINIB,False,3,Small molecule,FGFR3,cancer,yes
+CHEMBL4297522,PEMIGATINIB,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL3701238,FUTIBATINIB,False,3,Small molecule,FGFR3,cancer,yes
+CHEMBL274654,ORANTINIB,False,3,Small molecule,FGFR3,cancer,yes
+CHEMBL1834657,INFIGRATINIB PHOSPHATE,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL3545264,LY-2874455,False,1,Small molecule,FGFR3,cancer,yes
+CHEMBL1852688,INFIGRATINIB,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL3907479,FGFR INHIBITOR DEBIO 1347,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL3686884,E-7090,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL52885,ENMD-981693,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL3963485,ROGARATINIB,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL4297187,DERAZANTINIB,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL482968,ENMD-2076,False,2,Small molecule,FGFR3,cancer,yes
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,FGFR3,cancer,yes
+CHEMBL270995,BRIVANIB ALANINATE,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL377300,BRIVANIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL477772,PAZOPANIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL522892,DOVITINIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL1567,SUNITINIB MALATE,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL3545285,XL-999,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL2180604,TAK-593,False,1,Small molecule,FLT1,cancer,yes
+CHEMBL3545428,CHIAURANIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL535,SUNITINIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL1336,SORAFENIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL1614710,OSI-930,False,1,Small molecule,FLT1,cancer,yes
+CHEMBL1721885,SU-014813,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL101253,VATALANIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL276711,SEMAXANIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL1289601,LENVATINIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL4297190,SURUFATINIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL2105704,LENVATINIB MESYLATE,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL1289926,AXITINIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL2010872,CEP-11981,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL1278146,FAMITINIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL1743030,ICRUCUMAB,False,2,Antibody,FLT1,cancer,yes
+CHEMBL587723,AEE-788,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL3545396,BMS-690514,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL1980391,RG-1530,False,1,Small molecule,FLT1,cancer,yes
+CHEMBL1200485,SORAFENIB TOSYLATE,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL1230609,FORETINIB,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL4303214,FRUQUINTINIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL1980297,ILORASERTIB,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL3545358,4SC-203,False,1,Small molecule,FLT1,cancer,yes
+CHEMBL3545401,X-82,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL3989914,GLESATINIB,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL572881,MOTESANIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL223360,LINIFANIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL2220486,LUCITANIB,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL2105756,TIVOZANIB HYDROCHLORIDE,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL3545402,XL-820,False,2,Small molecule,FLT1,cancer,yes
+CHEMBL1289494,TIVOZANIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL491473,CEDIRANIB,False,3,Small molecule,FLT1,cancer,yes
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,FLT1,cancer,yes
+CHEMBL270995,BRIVANIB ALANINATE,False,3,Small molecule,FGFR1,cancer,yes
+CHEMBL4650297,HMPL-453,False,2,Unknown,FGFR1,cancer,yes
+CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL377300,BRIVANIB,False,3,Small molecule,FGFR1,cancer,yes
+CHEMBL3545376,ERDAFITINIB,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL477772,PAZOPANIB,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL3184679,AZD-4547,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL3545285,XL-999,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL4297522,PEMIGATINIB,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL3701238,FUTIBATINIB,False,3,Small molecule,FGFR1,cancer,yes
+CHEMBL4297190,SURUFATINIB,False,3,Small molecule,FGFR1,cancer,yes
+CHEMBL274654,ORANTINIB,False,3,Small molecule,FGFR1,cancer,yes
+CHEMBL1834657,INFIGRATINIB PHOSPHATE,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL1980391,RG-1530,False,1,Small molecule,FGFR1,cancer,yes
+CHEMBL3545264,LY-2874455,False,1,Small molecule,FGFR1,cancer,yes
+CHEMBL1852688,INFIGRATINIB,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL3907479,FGFR INHIBITOR DEBIO 1347,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL2220486,LUCITANIB,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL3686884,E-7090,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL52885,ENMD-981693,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL3963485,ROGARATINIB,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL4297187,DERAZANTINIB,False,2,Small molecule,FGFR1,cancer,yes
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,FGFR1,cancer,yes
+CHEMBL270995,BRIVANIB ALANINATE,False,3,Small molecule,FGFR4,cancer,yes
+CHEMBL377300,BRIVANIB,False,3,Small molecule,FGFR4,cancer,yes
+CHEMBL3545376,ERDAFITINIB,True,4,Small molecule,FGFR4,cancer,yes
+CHEMBL3184679,AZD-4547,False,2,Small molecule,FGFR4,cancer,yes
+CHEMBL3545285,XL-999,False,2,Small molecule,FGFR4,cancer,yes
+CHEMBL3701238,FUTIBATINIB,False,3,Small molecule,FGFR4,cancer,yes
+CHEMBL274654,ORANTINIB,False,3,Small molecule,FGFR4,cancer,yes
+CHEMBL1834657,INFIGRATINIB PHOSPHATE,True,4,Small molecule,FGFR4,cancer,yes
+CHEMBL3545264,LY-2874455,False,1,Small molecule,FGFR4,cancer,yes
+CHEMBL3545293,FGF401,False,2,Small molecule,FGFR4,cancer,yes
+CHEMBL1852688,INFIGRATINIB,True,4,Small molecule,FGFR4,cancer,yes
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,FGFR4,cancer,yes
+CHEMBL52885,ENMD-981693,False,2,Small molecule,FGFR4,cancer,yes
+CHEMBL3963485,ROGARATINIB,False,2,Small molecule,FGFR4,cancer,yes
+CHEMBL4297187,DERAZANTINIB,False,2,Small molecule,FGFR4,cancer,yes
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,FGFR4,cancer,yes
+CHEMBL270995,BRIVANIB ALANINATE,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL377300,BRIVANIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL2109602,IMC-3C5,False,1,Antibody,FLT4,cancer,yes
+CHEMBL477772,PAZOPANIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL522892,DOVITINIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL1567,SUNITINIB MALATE,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL3545285,XL-999,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL2079588,TELATINIB,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL2180604,TAK-593,False,1,Small molecule,FLT4,cancer,yes
+CHEMBL3545428,CHIAURANIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL535,SUNITINIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL1336,SORAFENIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL1614710,OSI-930,False,1,Small molecule,FLT4,cancer,yes
+CHEMBL1721885,SU-014813,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL101253,VATALANIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL276711,SEMAXANIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL1289601,LENVATINIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL4297190,SURUFATINIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL2105704,LENVATINIB MESYLATE,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL1289926,AXITINIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL2010872,CEP-11981,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL1278146,FAMITINIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL3545396,BMS-690514,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL1980391,RG-1530,False,1,Small molecule,FLT4,cancer,yes
+CHEMBL1200485,SORAFENIB TOSYLATE,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL1230609,FORETINIB,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL4303214,FRUQUINTINIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL1980297,ILORASERTIB,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL3545358,4SC-203,False,1,Small molecule,FLT4,cancer,yes
+CHEMBL4303201,ANLOTINIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL3545401,X-82,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL3989914,GLESATINIB,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL3545133,JNJ-26483327,False,1,Small molecule,FLT4,cancer,yes
+CHEMBL572881,MOTESANIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL223360,LINIFANIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL2220486,LUCITANIB,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL2105756,TIVOZANIB HYDROCHLORIDE,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL3545402,XL-820,False,2,Small molecule,FLT4,cancer,yes
+CHEMBL1289494,TIVOZANIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL491473,CEDIRANIB,False,3,Small molecule,FLT4,cancer,yes
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,FLT4,cancer,yes
+CHEMBL4116008,CERDULATINIB,False,2,Small molecule,TYK2,cancer,yes
+CHEMBL221959,TOFACITINIB,True,4,Small molecule,TYK2,cancer,yes
+CHEMBL4594275,GUSACITINIB,False,2,Small molecule,TYK2,cancer,yes
+CHEMBL3301588,TAREXTUMAB,False,1,Antibody,NOTCH3,cancer,yes
+CHEMBL3301588,TAREXTUMAB,False,1,Antibody,NOTCH2,cancer,yes
+CHEMBL3989973,PEXIDARTINIB HYDROCHLORIDE,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,True,4,Small molecule,KIT,cancer,yes
+CHEMBL477772,PAZOPANIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL522892,DOVITINIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL608533,MIDOSTAURIN,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1567,SUNITINIB MALATE,True,4,Small molecule,KIT,cancer,yes
+CHEMBL3545285,XL-999,False,2,Small molecule,KIT,cancer,yes
+CHEMBL1908391,MASITINIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL2079588,TELATINIB,False,2,Small molecule,KIT,cancer,yes
+CHEMBL535,SUNITINIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1336,SORAFENIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1614710,OSI-930,False,1,Small molecule,KIT,cancer,yes
+CHEMBL1721885,SU-014813,False,2,Small molecule,KIT,cancer,yes
+CHEMBL101253,VATALANIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL2103851,AMUVATINIB,False,2,Small molecule,KIT,cancer,yes
+CHEMBL276711,SEMAXANIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL4204794,AVAPRITINIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL4216467,RIPRETINIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1278146,FAMITINIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL3813873,PEXIDARTINIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL941,IMATINIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1642,IMATINIB MESYLATE,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1200485,SORAFENIB TOSYLATE,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1230609,FORETINIB,False,2,Small molecule,KIT,cancer,yes
+CHEMBL4303201,ANLOTINIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL572881,MOTESANIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL3545427,CM-082,False,3,Small molecule,KIT,cancer,yes
+CHEMBL124660,TANDUTINIB,False,2,Small molecule,KIT,cancer,yes
+CHEMBL1421,DASATINIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL2105756,TIVOZANIB HYDROCHLORIDE,True,4,Small molecule,KIT,cancer,yes
+CHEMBL3545402,XL-820,False,2,Small molecule,KIT,cancer,yes
+CHEMBL1289494,TIVOZANIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,KIT,cancer,yes
+CHEMBL491473,CEDIRANIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL482968,ENMD-2076,False,2,Small molecule,KIT,cancer,yes
+CHEMBL576982,QUIZARTINIB,False,3,Small molecule,KIT,cancer,yes
+CHEMBL4297571,PENPULIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4297829,SINTILIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL3137343,PEMBROLIZUMAB,True,4,Antibody,PDCD1,cancer,yes
+CHEMBL4297723,CEMIPLIMAB,True,4,Antibody,PDCD1,cancer,yes
+CHEMBL4297877,BALSTILIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4594578,TEBOTELIMAB,False,2,Antibody,PDCD1,cancer,yes
+CHEMBL4298037,RETIFANLIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4297715,CAMRELIZUMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4298124,DOSTARLIMAB,True,4,Antibody,PDCD1,cancer,yes
+CHEMBL4297858,BUDIGALIMAB,False,2,Antibody,PDCD1,cancer,yes
+CHEMBL4298001,CETRELIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4297831,SPARTALIZUMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4297843,TORIPALIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL2108680,PIDILIZUMAB,False,2,Antibody,PDCD1,cancer,yes
+CHEMBL4594355,APL-501,False,2,Unknown,PDCD1,cancer,yes
+CHEMBL4298191,SASANLIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL2108738,NIVOLUMAB,True,4,Antibody,PDCD1,cancer,yes
+CHEMBL4650472,PUCOTENLIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4594550,SERPLULIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4297840,TISLELIZUMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4594456,CADONILIMAB,False,2,Antibody,PDCD1,cancer,yes
+CHEMBL4297856,ZIMBERELIMAB,False,3,Antibody,PDCD1,cancer,yes
+CHEMBL4297876,ZALIFRELIMAB,False,2,Antibody,CTLA4,cancer,yes
+CHEMBL4650419,QUAVONLIMAB,False,3,Antibody,CTLA4,cancer,yes
+CHEMBL4650483,ERFONRILIMAB,False,3,Antibody,CTLA4,cancer,yes
+CHEMBL2108658,TREMELIMUMAB,False,3,Antibody,CTLA4,cancer,yes
+CHEMBL4594456,CADONILIMAB,False,2,Antibody,CTLA4,cancer,yes
+CHEMBL1789844,IPILIMUMAB,True,4,Antibody,CTLA4,cancer,yes
+CHEMBL4297894,ASP-8374,False,1,Unknown,TIGIT,cancer,yes
+CHEMBL4298205,ETIGILIMAB,False,1,Antibody,TIGIT,cancer,yes
+CHEMBL4297785,VIBOSTOLIMAB,False,3,Antibody,TIGIT,cancer,yes
+CHEMBL4650473,IBI-939,False,1,Unknown,TIGIT,cancer,yes
+CHEMBL4298050,TIRAGOLUMAB,False,3,Antibody,TIGIT,cancer,yes
+CHEMBL4650392,DOMVANALIMAB,False,3,Antibody,TIGIT,cancer,yes
+CHEMBL4650411,OCIPERLIMAB,False,3,Antibody,TIGIT,cancer,yes
+CHEMBL4297985,MAGROLIMAB,False,3,Antibody,CD47,cancer,yes
+CHEMBL4298013,ELGEMTUMAB,False,1,Antibody,ERBB3,cancer,yes
+CHEMBL4297661,TARLOXOTINIB,False,2,Small molecule,ERBB3,cancer,yes
+CHEMBL4650289,KBP5209,False,1,Unknown,ERBB3,cancer,yes
+CHEMBL4298025,ZENOCUTUZUMAB,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL2109396,AMG-888,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL3707404,LUMRETUZUMAB,False,1,Antibody,ERBB3,cancer,yes
+CHEMBL3137345,DULIGOTUZUMAB,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL3989990,ISTIRATUMAB,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL2109401,AV-203,False,1,Antibody,ERBB3,cancer,yes
+CHEMBL4650292,CDX-3379,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL3545154,POZIOTINIB,False,2,Small molecule,ERBB3,cancer,yes
+CHEMBL4297556,MM-111,False,2,Unknown,ERBB3,cancer,yes
+CHEMBL2109406,PATRITUMAB,False,3,Antibody,ERBB3,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,ERBB3,cancer,yes
+CHEMBL4594611,PATRITUMAB DERUXTECAN,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL2109402,MM-121,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL3545071,SERIBANTUMAB,False,2,Antibody,ERBB3,cancer,yes
+CHEMBL2408045,SAPITINIB,False,2,Small molecule,ERBB3,cancer,yes
+CHEMBL4298090,SIMLUKAFUSP ALFA,False,2,Protein,IL2RG,cancer,yes
+CHEMBL4298090,SIMLUKAFUSP ALFA,False,2,Protein,IL2RB,cancer,yes
+CHEMBL1201550,DENILEUKIN DIFTITOX,True,4,Protein,IL2RB,cancer,yes
+CHEMBL1201438,ALDESLEUKIN,True,4,Protein,IL2RB,cancer,yes
+CHEMBL2109326,MIK-BETA-1,False,1,Antibody,IL2RB,cancer,yes
+CHEMBL2109610,HUMIK-BETA-1,False,1,Antibody,IL2RB,cancer,yes
+CHEMBL502,DONEPEZIL,True,4,Small molecule,ACHE,cancer,no
+CHEMBL278020,NEOSTIGMINE,True,4,Small molecule,ACHE,cancer,no
+CHEMBL1678,DONEPEZIL HYDROCHLORIDE,True,4,Small molecule,ACHE,cancer,no
+CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL477772,PAZOPANIB,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL522892,DOVITINIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL608533,MIDOSTAURIN,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL1567,SUNITINIB MALATE,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL3545285,XL-999,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL1908391,MASITINIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL1743049,OLARATUMAB,True,4,Antibody,PDGFRA,cancer,no
+CHEMBL2180604,TAK-593,False,1,Small molecule,PDGFRA,cancer,no
+CHEMBL2105728,CRENOLANIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL535,SUNITINIB,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL1721885,SU-014813,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL101253,VATALANIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL2103851,AMUVATINIB,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL4204794,AVAPRITINIB,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL4216467,RIPRETINIB,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL1278146,FAMITINIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL274654,ORANTINIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL1230609,FORETINIB,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL1980297,ILORASERTIB,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL3545401,X-82,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL572881,MOTESANIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL223360,LINIFANIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL3545402,XL-820,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL52885,ENMD-981693,False,2,Small molecule,PDGFRA,cancer,no
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL491473,CEDIRANIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL2364651,TOVETUMAB,False,2,Antibody,PDGFRA,cancer,no
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,PDGFRA,cancer,no
+CHEMBL576982,QUIZARTINIB,False,3,Small molecule,PDGFRA,cancer,no
+CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL477772,PAZOPANIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL522892,DOVITINIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL608533,MIDOSTAURIN,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL1567,SUNITINIB MALATE,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL3545285,XL-999,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL1908391,MASITINIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL2079588,TELATINIB,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL2180604,TAK-593,False,1,Small molecule,PDGFRB,cancer,no
+CHEMBL2105728,CRENOLANIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL535,SUNITINIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL1336,SORAFENIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL1721885,SU-014813,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL101253,VATALANIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL1278146,FAMITINIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL274654,ORANTINIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL1980391,RG-1530,False,1,Small molecule,PDGFRB,cancer,no
+CHEMBL941,IMATINIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL1642,IMATINIB MESYLATE,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL1200485,SORAFENIB TOSYLATE,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL1230609,FORETINIB,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL1980297,ILORASERTIB,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL4303201,ANLOTINIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL3545401,X-82,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL3545155,JI-101,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL572881,MOTESANIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL223360,LINIFANIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL3545427,CM-082,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL124660,TANDUTINIB,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL1421,DASATINIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL3039504,NINTEDANIB ESYLATE,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL2105756,TIVOZANIB HYDROCHLORIDE,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL3545402,XL-820,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL52885,ENMD-981693,False,2,Small molecule,PDGFRB,cancer,no
+CHEMBL1289494,TIVOZANIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL491473,CEDIRANIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL502835,NINTEDANIB,True,4,Small molecule,PDGFRB,cancer,no
+CHEMBL576982,QUIZARTINIB,False,3,Small molecule,PDGFRB,cancer,no
+CHEMBL1201833,GOLIMUMAB,True,4,Antibody,TNF,cancer,yes
+CHEMBL1201580,ADALIMUMAB,True,4,Antibody,TNF,cancer,yes
+CHEMBL1201581,INFLIXIMAB,True,4,Antibody,TNF,cancer,yes
+CHEMBL1201572,ETANERCEPT,True,4,Protein,TNF,cancer,yes
+CHEMBL1201831,CERTOLIZUMAB PEGOL,True,4,Antibody,TNF,cancer,yes
+CHEMBL1433,DOXYCYCLINE ANHYDROUS,True,4,Small molecule,MMP7,cancer,yes
+CHEMBL1200699,DOXYCYCLINE,True,4,Small molecule,MMP7,cancer,yes
+CHEMBL279785,MARIMASTAT,False,3,Small molecule,MMP7,cancer,yes
+CHEMBL1743031,INDATUXIMAB RAVTANSINE,False,1,Antibody,SDC1,cancer,yes
+CHEMBL4297480,SX-682,False,1,Small molecule,CXCR2,cancer,yes
+CHEMBL191413,REPARIXIN,False,3,Small molecule,CXCR2,cancer,yes
+CHEMBL4297480,SX-682,False,1,Small molecule,CXCR1,cancer,yes
+CHEMBL191413,REPARIXIN,False,3,Small molecule,CXCR1,cancer,yes
+CHEMBL2105864,LABRADIMIL,False,2,Protein,BDKRB2,cancer,yes
+CHEMBL1201832,ROMIPLOSTIM,True,4,Protein,MPL,cancer,yes
+CHEMBL3989691,ELTROMBOPAG OLAMINE,True,4,Small molecule,MPL,cancer,yes
+CHEMBL461101,ELTROMBOPAG,True,4,Small molecule,MPL,cancer,yes
+CHEMBL2108252,APOLIZUMAB,False,2,Antibody,HLA-DRB5,cancer,yes
+CHEMBL2108252,APOLIZUMAB,False,2,Antibody,HLA-DRB1,cancer,yes
+CHEMBL2109447,LYM-1,False,3,Antibody,HLA-DRB1,cancer,yes
+CHEMBL2108508,INTERFERON ALFA-2A,True,4,Protein,IFNAR2,cancer,no
+CHEMBL1201560,PEGINTERFERON ALFA-2A,True,4,Protein,IFNAR2,cancer,no
+CHEMBL4297819,ROPEGINTERFERON ALFA-2B,True,4,Unknown,IFNAR2,cancer,no
+CHEMBL1201561,PEGINTERFERON ALFA-2B,True,4,Protein,IFNAR2,cancer,no
+CHEMBL1201558,INTERFERON ALFA-2B,True,4,Protein,IFNAR2,cancer,no
+CHEMBL2109413,AS-1409,False,1,Antibody,FN1,cancer,yes
+CHEMBL2109412,L19SIP 131I,False,2,Antibody,FN1,cancer,yes
+CHEMBL2109608,L19IL2,False,3,Antibody,FN1,cancer,yes
+CHEMBL2109589,L19TNFA,False,2,Antibody,FN1,cancer,yes
+CHEMBL3301587,DURVALUMAB,True,4,Antibody,CD274,cancer,yes
+CHEMBL4594535,SUGEMALIMAB,False,3,Antibody,CD274,cancer,yes
+CHEMBL3833373,AVELUMAB,True,4,Antibody,CD274,cancer,yes
+CHEMBL4298024,BINTRAFUSP ALFA,False,3,Protein,CD274,cancer,yes
+CHEMBL3707227,ATEZOLIZUMAB,True,4,Antibody,CD274,cancer,yes
+CHEMBL4650483,ERFONRILIMAB,False,3,Antibody,CD274,cancer,yes
+CHEMBL4298006,ENVAFOLIMAB,False,2,Antibody,CD274,cancer,yes
+CHEMBL4297563,PACMILIMAB,False,2,Antibody,CD274,cancer,yes
+CHEMBL3545365,ALTIRATINIB,False,1,Small molecule,NTRK3,cancer,yes
+CHEMBL3545381,PLX-7486,False,1,Small molecule,NTRK3,cancer,yes
+CHEMBL3989939,LAROTRECTINIB SULFATE,True,4,Small molecule,NTRK3,cancer,yes
+CHEMBL4297627,SELITRECTINIB,False,1,Small molecule,NTRK3,cancer,yes
+CHEMBL603469,LESTAURTINIB,False,3,Small molecule,NTRK3,cancer,yes
+CHEMBL3545179,AZD-7451,False,1,Small molecule,NTRK3,cancer,yes
+CHEMBL1983268,ENTRECTINIB,True,4,Small molecule,NTRK3,cancer,yes
+CHEMBL3545298,AZD-6918,False,1,Small molecule,NTRK3,cancer,yes
+CHEMBL3889654,LAROTRECTINIB,True,4,Small molecule,NTRK3,cancer,yes
+CHEMBL3545365,ALTIRATINIB,False,1,Small molecule,TEK,cancer,no
+CHEMBL2010872,CEP-11981,False,2,Small molecule,TEK,cancer,no
+CHEMBL24828,VANDETANIB,True,4,Small molecule,TEK,cancer,no
+CHEMBL3991932,PEXMETINIB,False,1,Small molecule,TEK,cancer,no
+CHEMBL1230609,FORETINIB,False,2,Small molecule,TEK,cancer,no
+CHEMBL3989914,GLESATINIB,False,2,Small molecule,TEK,cancer,no
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,TEK,cancer,no
+CHEMBL3545072,LANDOGROZUMAB,False,2,Antibody,MSTN,cancer,yes
+CHEMBL4297884,PEPINEMAB,False,2,Antibody,SEMA4D,cancer,yes
+CHEMBL4298004,VOPRATELIMAB,False,2,Antibody,ICOS,cancer,yes
+CHEMBL4297969,FELADILIMAB,False,3,Antibody,ICOS,cancer,yes
+CHEMBL82301,VICRIVIROC,False,3,Small molecule,CCR5,cancer,yes
+CHEMBL2109343,LERONLIMAB,False,3,Antibody,CCR5,cancer,yes
+CHEMBL1201187,MARAVIROC,True,4,Small molecule,CCR5,cancer,yes
+CHEMBL4594419,BMS-813160,False,2,Small molecule,CCR5,cancer,yes
+CHEMBL3545156,KW-2450,False,2,Small molecule,INSR,cancer,yes
+CHEMBL1091644,LINSITINIB,False,3,Small molecule,INSR,cancer,yes
+CHEMBL1201496,INSULIN ASPART,True,4,Protein,INSR,cancer,yes
+CHEMBL1201497,INSULIN GLARGINE,True,4,Protein,INSR,cancer,yes
+CHEMBL1201631,INSULIN,True,4,Protein,INSR,cancer,yes
+CHEMBL575448,BMS-754807,False,2,Small molecule,INSR,cancer,yes
+CHEMBL1201539,INSULIN PORK,True,4,Protein,INSR,cancer,yes
+CHEMBL1201621,SOMATROPIN,True,4,Protein,GHR,cancer,yes
+CHEMBL1201515,PEGVISOMANT,True,4,Protein,GHR,cancer,yes
+CHEMBL1201670,SARGRAMOSTIM,True,4,Protein,CSF2RA,cancer,no
+CHEMBL1467,ALLOPURINOL,True,4,Small molecule,XDH,cancer,no
+CHEMBL1201565,EPOETIN ALFA,True,4,Protein,EPOR,cancer,yes
+CHEMBL2108593,EPOETIN ZETA,True,4,Protein,EPOR,cancer,yes
+CHEMBL2109092,EPOETIN BETA,True,4,Protein,EPOR,cancer,yes
+CHEMBL1201566,DARBEPOETIN ALFA,True,4,Protein,EPOR,cancer,yes
+CHEMBL2109437,KHK-2866,False,1,Antibody,HBEGF,cancer,yes
+CHEMBL2323775,MK-8033,False,1,Small molecule,MST1R,cancer,no
+CHEMBL3989914,GLESATINIB,False,2,Small molecule,MST1R,cancer,no
+CHEMBL1743046,NARNATUMAB,False,1,Antibody,MST1R,cancer,no
+CHEMBL2108730,SARILUMAB,True,4,Antibody,IL6R,cancer,yes
+CHEMBL1237022,TOCILIZUMAB,True,4,Antibody,IL6R,cancer,yes
+CHEMBL3990031,ROSMANTUZUMAB,False,3,Antibody,LGR4,cancer,yes
+CHEMBL1567,SUNITINIB MALATE,True,4,Small molecule,RET,cancer,yes
+CHEMBL1738797,ALECTINIB,True,4,Small molecule,RET,cancer,yes
+CHEMBL535,SUNITINIB,True,4,Small molecule,RET,cancer,yes
+CHEMBL603469,LESTAURTINIB,False,3,Small molecule,RET,cancer,yes
+CHEMBL1336,SORAFENIB,True,4,Small molecule,RET,cancer,yes
+CHEMBL4582651,PRALSETINIB,True,4,Small molecule,RET,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,RET,cancer,yes
+CHEMBL2029988,CEP-32496,False,1,Small molecule,RET,cancer,yes
+CHEMBL1200485,SORAFENIB TOSYLATE,True,4,Small molecule,RET,cancer,yes
+CHEMBL3707320,ALECTINIB HYDROCHLORIDE,True,4,Small molecule,RET,cancer,yes
+CHEMBL572881,MOTESANIB,False,3,Small molecule,RET,cancer,yes
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,RET,cancer,yes
+CHEMBL4559134,SELPERCATINIB,True,4,Small molecule,RET,cancer,yes
+CHEMBL576982,QUIZARTINIB,False,3,Small molecule,RET,cancer,yes
+CHEMBL1743064,ROBATUMUMAB,False,2,Antibody,IGF1R,cancer,yes
+CHEMBL283120,AXL-1717,False,2,Small molecule,IGF1R,cancer,yes
+CHEMBL1743019,FIGITUMUMAB,False,3,Antibody,IGF1R,cancer,yes
+CHEMBL3989990,ISTIRATUMAB,False,2,Antibody,IGF1R,cancer,yes
+CHEMBL1743079,TEPROTUMUMAB,True,4,Antibody,IGF1R,cancer,yes
+CHEMBL3545156,KW-2450,False,2,Small molecule,IGF1R,cancer,yes
+CHEMBL3899477,CONTELTINIB ,False,1,Small molecule,IGF1R,cancer,yes
+CHEMBL1091644,LINSITINIB,False,3,Small molecule,IGF1R,cancer,yes
+CHEMBL1743024,GANITUMAB,False,3,Antibody,IGF1R,cancer,yes
+CHEMBL1743001,CIXUTUMUMAB,False,2,Antibody,IGF1R,cancer,yes
+CHEMBL2109356,BIIB-022,False,1,Antibody,IGF1R,cancer,yes
+CHEMBL575448,BMS-754807,False,2,Small molecule,IGF1R,cancer,yes
+CHEMBL3545004,PL-225B,False,1,Small molecule,IGF1R,cancer,yes
+CHEMBL3545085,XL-228,False,1,Small molecule,IGF1R,cancer,yes
+CHEMBL1743006,DALOTUZUMAB,False,2,Antibody,IGF1R,cancer,yes
+CHEMBL2109357,AVE-1642,False,2,Antibody,IGF1R,cancer,yes
+CHEMBL3545348,BKT140,False,3,Protein,CXCR4,cancer,yes
+CHEMBL518924,MAVORIXAFOR,False,3,Small molecule,CXCR4,cancer,yes
+CHEMBL3039543,ULOCUPLUMAB,False,1,Antibody,CXCR4,cancer,yes
+CHEMBL3545224,BURIXAFOR,False,2,Small molecule,CXCR4,cancer,yes
+CHEMBL4802129,BALIXAFORTIDE,False,3,Protein,CXCR4,cancer,yes
+CHEMBL3545330,MSX-122,False,1,Small molecule,CXCR4,cancer,yes
+CHEMBL18442,PLERIXAFOR,True,4,Small molecule,CXCR4,cancer,yes
+CHEMBL2109531,MEDI-6469,False,2,Antibody,TNFRSF4,cancer,no
+CHEMBL4297883,IVUXOLIMAB,False,2,Antibody,TNFRSF4,cancer,no
+CHEMBL4297968,GSK-3174998,False,2,Unknown,TNFRSF4,cancer,no
+CHEMBL1201607,NATALIZUMAB,True,4,Antibody,ITGA4,cancer,yes
+CHEMBL1743087,VEDOLIZUMAB,True,4,Antibody,ITGA4,cancer,yes
+CHEMBL1201834,CANAKINUMAB,True,4,Antibody,IL1B,cancer,yes
+CHEMBL1743026,GEVOKIZUMAB,False,3,Antibody,IL1B,cancer,yes
+CHEMBL1743075,TABALUMAB,False,3,Antibody,TNFSF13B,cancer,no
+CHEMBL1789843,BELIMUMAB,True,4,Antibody,TNFSF13B,cancer,no
+CHEMBL1743087,VEDOLIZUMAB,True,4,Antibody,ITGB7,cancer,yes
+CHEMBL2109509,HCBE-11,False,1,Antibody,LTBR,cancer,yes
+CHEMBL4297163,MUPARFOSTAT,False,3,Oligosaccharide,FGF1,cancer,yes
+CHEMBL413376,SURAMIN HEXASODIUM,False,3,Small molecule,FGF1,cancer,yes
+CHEMBL265502,SURAMIN,False,3,Small molecule,FGF1,cancer,yes
+CHEMBL4297163,MUPARFOSTAT,False,3,Oligosaccharide,HPSE,cancer,no
+CHEMBL4297163,MUPARFOSTAT,False,3,Oligosaccharide,VEGFA,cancer,no
+CHEMBL1201825,RANIBIZUMAB,True,4,Antibody,VEGFA,cancer,no
+CHEMBL3545259,VANUCIZUMAB,False,2,Antibody,VEGFA,cancer,no
+CHEMBL1201583,BEVACIZUMAB,True,4,Antibody,VEGFA,cancer,no
+CHEMBL1742982,AFLIBERCEPT,True,4,Protein,VEGFA,cancer,no
+CHEMBL4297850,XENTUZUMAB,False,2,Antibody,IGF2,cancer,yes
+CHEMBL2109355,DUSIGITUMAB,False,2,Antibody,IGF2,cancer,yes
+CHEMBL4594558,RAGIFILIMAB,False,2,Antibody,TNFRSF18,cancer,no
+CHEMBL2109428,TRX-518,False,1,Antibody,TNFRSF18,cancer,no
+CHEMBL1743070,SILTUXIMAB,True,4,Antibody,IL6,cancer,no
+CHEMBL2109622,PF-04605412,False,1,Antibody,ITGA5,cancer,yes
+CHEMBL4297456,ATN-161,False,2,Protein,ITGA5,cancer,yes
+CHEMBL2108061,VOLOCIXIMAB,False,3,Antibody,ITGA5,cancer,yes
+CHEMBL2109635,SAR-566658,False,2,Antibody,MUC1,cancer,yes
+CHEMBL1742998,CANTUZUMAB RAVTANSINE,False,2,Antibody,MUC1,cancer,yes
+CHEMBL2109637,HUHMFG1,False,2,Antibody,MUC1,cancer,yes
+CHEMBL3039544,TECEMOTIDE,False,3,Protein,MUC1,cancer,yes
+CHEMBL4650501,PF-4136309,False,2,Unknown,CCR2,cancer,yes
+CHEMBL4594419,BMS-813160,False,2,Small molecule,CCR2,cancer,yes
+CHEMBL3707228,PLOZALIZUMAB,False,2,Antibody,CCR2,cancer,yes
+CHEMBL2364655,EVOLOCUMAB,True,4,Antibody,PCSK9,cancer,yes
+CHEMBL4594230,LIPEGFILGRASTIM,True,4,Protein,CSF3R,cancer,no
+CHEMBL2108572,BALUGRASTIM,False,2,Protein,CSF3R,cancer,no
+CHEMBL1201567,FILGRASTIM,True,4,Protein,CSF3R,cancer,no
+CHEMBL1201568,PEGFILGRASTIM,True,4,Protein,CSF3R,cancer,no
+CHEMBL2109128,LENOGRASTIM,True,4,Protein,CSF3R,cancer,no
+CHEMBL4594463,AVDORALIMAB,False,2,Antibody,C5AR1,cancer,no
+CHEMBL1201564,INTERFERON GAMMA-1B,True,4,Protein,IFNGR2,cancer,yes
+CHEMBL1201564,INTERFERON GAMMA-1B,True,4,Protein,IFNGR1,cancer,yes
+CHEMBL1201823,ABATACEPT,True,4,Protein,CD80,cancer,yes
+CHEMBL2109191,GALIXIMAB,False,3,Antibody,CD80,cancer,yes
+CHEMBL1201823,ABATACEPT,True,4,Protein,CD86,cancer,no
+CHEMBL2108342,GEMTUZUMAB,False,3,Antibody,CD33,cancer,yes
+CHEMBL2109150,LINTUZUMAB,False,3,Antibody,CD33,cancer,yes
+CHEMBL1201506,GEMTUZUMAB OZOGAMICIN,True,4,Antibody,CD33,cancer,yes
+CHEMBL2109267,M195,False,2,Antibody,CD33,cancer,yes
+CHEMBL2109266,AVE-9633,False,1,Antibody,CD33,cancer,yes
+CHEMBL2109583,F16IL2,False,2,Antibody,TNC,cancer,no
+CHEMBL2109584,F16SIP 131I,False,2,Antibody,TNC,cancer,no
+CHEMBL1743077,TENATUMOMAB,False,2,Antibody,TNC,cancer,no
+CHEMBL2109582,81C6 131I,False,2,Antibody,TNC,cancer,no
+CHEMBL3545373,ENOBLITUZUMAB,False,2,Antibody,CD276,cancer,yes
+CHEMBL2109310,8H9 131I,False,2,Antibody,CD276,cancer,yes
+CHEMBL4650294,IMALUMAB,False,2,Antibody,MIF,cancer,no
+CHEMBL2109250,TGN-1412,False,2,Antibody,CD28,cancer,no
+CHEMBL2109379,NI-0801,False,2,Antibody,CXCL10,cancer,no
+CHEMBL2109494,A27.15,False,1,Antibody,TFRC,cancer,no
+CHEMBL2109495,E2.3,False,1,Antibody,TFRC,cancer,no
+CHEMBL1237119,TREPROSTINIL,True,4,Small molecule,PTGIR,cancer,yes
+CHEMBL494,ILOPROST,True,4,Small molecule,PTGIR,cancer,yes
+CHEMBL3545261,BRONTICTUZUMAB,False,1,Antibody,NOTCH1,cancer,yes
+CHEMBL3260567,VACTOSERTIB,False,2,Small molecule,TGFBR1,cancer,yes
+CHEMBL2364611,GALUNISERTIB,False,2,Small molecule,TGFBR1,cancer,yes
+CHEMBL4297456,ATN-161,False,2,Protein,ITGB1,cancer,yes
+CHEMBL2108061,VOLOCIXIMAB,False,3,Antibody,ITGB1,cancer,yes
+CHEMBL2108681,TILDRAKIZUMAB,True,4,Antibody,IL23A,cancer,no
+CHEMBL2364648,GUSELKUMAB,True,4,Antibody,IL23A,cancer,no
+CHEMBL2109477,SELICRELUMAB,False,1,Antibody,CD40,cancer,yes
+CHEMBL1743005,DACETUZUMAB,False,2,Antibody,CD40,cancer,yes
+CHEMBL4297721,CDX-1140,False,2,Unknown,CD40,cancer,yes
+CHEMBL1743038,LUCATUMUMAB,False,2,Antibody,CD40,cancer,yes
+CHEMBL4297718,CD40 LIGAND,False,2,Unknown,CD40,cancer,yes
+CHEMBL4297888,SOTIGALIMAB,False,2,Antibody,CD40,cancer,yes
+CHEMBL2109480,AHN-12,False,1,Antibody,PTPRC,cancer,yes
+CHEMBL2109630,BC8 131I,False,2,Antibody,PTPRC,cancer,yes
+CHEMBL4298092,GLOFITAMAB,False,3,Antibody,CD3D,cancer,no
+CHEMBL4594505,TECLISTAMAB,False,2,Antibody,CD3D,cancer,no
+CHEMBL2108581,CATUMAXOMAB,True,4,Antibody,CD3D,cancer,no
+CHEMBL4297788,MOSUNETUZUMAB,False,3,Antibody,CD3D,cancer,no
+CHEMBL4298084,ODRONEXTAMAB,False,2,Antibody,CD3D,cancer,no
+CHEMBL3990038,FLOTETUZUMAB,False,2,Antibody,CD3D,cancer,no
+CHEMBL4650393,EPCORITAMAB,False,3,Antibody,CD3D,cancer,no
+CHEMBL1742992,BLINATUMOMAB,True,4,Antibody,CD3D,cancer,no
+CHEMBL4297809,ELRANATAMAB,False,2,Antibody,CD3D,cancer,no
+CHEMBL4594503,TALQUETAMAB,False,2,Antibody,CD3D,cancer,no
+CHEMBL4298092,GLOFITAMAB,False,3,Antibody,CD3G,cancer,yes
+CHEMBL4594505,TECLISTAMAB,False,2,Antibody,CD3G,cancer,yes
+CHEMBL2108581,CATUMAXOMAB,True,4,Antibody,CD3G,cancer,yes
+CHEMBL4297788,MOSUNETUZUMAB,False,3,Antibody,CD3G,cancer,yes
+CHEMBL4298084,ODRONEXTAMAB,False,2,Antibody,CD3G,cancer,yes
+CHEMBL3990038,FLOTETUZUMAB,False,2,Antibody,CD3G,cancer,yes
+CHEMBL4650393,EPCORITAMAB,False,3,Antibody,CD3G,cancer,yes
+CHEMBL1742992,BLINATUMOMAB,True,4,Antibody,CD3G,cancer,yes
+CHEMBL4297809,ELRANATAMAB,False,2,Antibody,CD3G,cancer,yes
+CHEMBL4594503,TALQUETAMAB,False,2,Antibody,CD3G,cancer,yes
+CHEMBL2109604,MEDI-2338,False,1,Antibody,IL18,cancer,yes
+CHEMBL3039545,LUSPATERCEPT,True,4,Protein,TGFB1,cancer,yes
+CHEMBL4298024,BINTRAFUSP ALFA,False,3,Protein,TGFB1,cancer,yes
+CHEMBL1743022,FRESOLIMUMAB,False,2,Antibody,TGFB1,cancer,yes
+CHEMBL481611,ODANACATIB,False,3,Small molecule,CTSK,cancer,no
+CHEMBL190083,TARENFLURBIL,False,3,Small molecule,PSEN1,cancer,no
+CHEMBL4297422,RG-4733,False,2,Small molecule,PSEN1,cancer,no
+CHEMBL2109346,AME-133V,False,2,Antibody,ITGB2,cancer,yes
+CHEMBL2109391,MDX-447,False,2,Antibody,FCGR1A,cancer,yes
+CHEMBL3989971,UPROLESELAN,False,3,Small molecule,SELE,cancer,yes
+CHEMBL2109586,AMG-780,False,1,Antibody,ANGPT1,cancer,no
+CHEMBL2108568,TREBANANIB,False,3,Protein,ANGPT1,cancer,no
+CHEMBL1743003,CONATUMUMAB,False,2,Antibody,TNFRSF10B,cancer,yes
+CHEMBL1743080,TIGATUZUMAB,False,3,Antibody,TNFRSF10B,cancer,yes
+CHEMBL1743008,DROZITUMAB,False,2,Antibody,TNFRSF10B,cancer,yes
+CHEMBL2107846,DULANERMIN,False,2,Protein,TNFRSF10B,cancer,yes
+CHEMBL1743036,LEXATUMUMAB,False,1,Antibody,TNFRSF10B,cancer,yes
+CHEMBL2107857,METRELEPTIN,True,4,Protein,LEPR,cancer,no
+CHEMBL3301589,ENFORTUMAB VEDOTIN,True,4,Antibody,NECTIN4,cancer,yes
+CHEMBL3833374,ANDECALIXIMAB,False,3,Antibody,MMP9,cancer,yes
+CHEMBL279785,MARIMASTAT,False,3,Small molecule,MMP9,cancer,yes
+CHEMBL2108063,ZANOLIMUMAB,False,3,Antibody,CD4,cancer,yes
+CHEMBL4594575,SABATOLIMAB,False,3,Antibody,HAVCR2,cancer,yes
+CHEMBL4298123,COBOLIMAB,False,2,Antibody,HAVCR2,cancer,yes
+CHEMBL1742999,CARLUMAB,False,2,Antibody,CCL2,cancer,yes
+CHEMBL2109482,BI-505,False,2,Antibody,ICAM1,cancer,yes
+CHEMBL2109513,PD-360324,False,2,Antibody,CSF1,cancer,yes
+CHEMBL2109512,MCS-110,False,2,Antibody,CSF1,cancer,yes
+CHEMBL1201570,ANAKINRA,True,4,Protein,IL1R1,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,EPHA7,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,EPHA2,cancer,yes
+CHEMBL1421,DASATINIB,True,4,Small molecule,EPHA2,cancer,yes
+CHEMBL1946170,REGORAFENIB,True,4,Small molecule,EPHA2,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,EPHA4,cancer,yes
+CHEMBL24828,VANDETANIB,True,4,Small molecule,EPHA10,cancer,yes
+CHEMBL1089636,ANG1005,False,3,Protein,LRP1,cancer,yes
+CHEMBL1743067,SAMALIZUMAB,False,2,Antibody,CD200,cancer,yes
+CHEMBL2103847,TOSEDOSTAT,False,2,Small molecule,ANPEP,cancer,no
+CHEMBL2109295,ASCRINVACUMAB,False,2,Antibody,ACVRL1,cancer,no
+CHEMBL3545322,PANULISIB,False,1,Small molecule,ACVRL1,cancer,no
+CHEMBL4297942,QUETMOLIMAB,False,2,Antibody,CX3CL1,cancer,yes
+CHEMBL2109653,BERMEKIMAB,False,3,Antibody,IL1A,cancer,no
+CHEMBL501259,ERITORAN,False,3,Small molecule,TLR4,cancer,yes
+CHEMBL3301672,ERITORAN TETRASODIUM,False,3,Small molecule,TLR4,cancer,yes
+CHEMBL2108583,CINTREDEKIN BESUDOTOX,False,3,Protein,IL4R,cancer,yes
+CHEMBL2108675,DUPILUMAB,True,4,Antibody,IL4R,cancer,yes
+CHEMBL2109484,BB-10901,False,2,Antibody,NCAM1,cancer,yes
+CHEMBL1743037,LORVOTUZUMAB MERTANSINE,False,2,Antibody,NCAM1,cancer,yes
+CHEMBL2108742,SIPLIZUMAB,False,2,Antibody,CD2,cancer,yes
+CHEMBL1201571,ALEFACEPT,True,4,Protein,CD2,cancer,yes
+CHEMBL4297787,MONALIZUMAB,False,3,Antibody,KLRC1,cancer,yes
+CHEMBL4650421,RECOMBINANT HUMAN INTERLEUKIN-15,False,2,Unknown,IL15RA,cancer,yes
+CHEMBL1743063,RILOTUMUMAB,False,3,Antibody,HGF,cancer,no
+CHEMBL1743018,FICLATUZUMAB,False,2,Antibody,HGF,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL1A1,cancer,yes
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL3A1,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL4A5,cancer,yes
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL1A2,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL4A4,cancer,yes
+CHEMBL2109374,TRC-093,False,1,Antibody,COL4A4,cancer,yes
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL6A1,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL6A3,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL5A2,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL5A3,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL6A2,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL28A1,cancer,yes
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL15A1,cancer,yes
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL5A1,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL18A1,cancer,yes
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL4A2,cancer,no
+CHEMBL2108709,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,True,4,Enzyme,COL4A1,cancer,no
+CHEMBL4297886,ASUNERCEPT,False,2,Protein,FASLG,cancer,yes
+CHEMBL4297717,CD24FC,False,3,Unknown,HMGB1,cancer,no
+CHEMBL4297717,CD24FC,False,3,Unknown,SIGLEC10,cancer,yes
+CHEMBL4297841,TISOTUMAB VEDOTIN,True,4,Antibody,F3,cancer,no
+CHEMBL4298089,CODRITUZUMAB,False,2,Antibody,GPC3,cancer,yes
+CHEMBL1743040,MILATUZUMAB,False,2,Antibody,CD74,cancer,no
+CHEMBL2108413,BIVATUZUMAB,False,1,Antibody,CD44,cancer,yes
+CHEMBL1743041,MOGAMULIZUMAB,True,4,Antibody,CCR4,cancer,yes
+CHEMBL2109309,RHIGM12B7,False,1,Antibody,PDCD1LG2,cancer,yes
+CHEMBL4298067,TOMARALIMAB,False,2,Antibody,TLR2,cancer,yes
+CHEMBL2364652,VANTICTUMAB,False,1,Antibody,FZD5,cancer,yes
+CHEMBL279785,MARIMASTAT,False,3,Small molecule,MMP2,cancer,yes
+CHEMBL1240,PROPANTHELINE BROMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL978,METHACHOLINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL667,ACETYLCHOLINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1184,ACETYLCHOLINE CHLORIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1346,DARIFENACIN,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3545222,AZD8683,False,2,Small molecule,CHRM3,other,yes
+CHEMBL1201338,CYCLOPENTOLATE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3084748,TROSPIUM CHLORIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL2218917,CEVIMELINE HYDROCHLORIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1201232,ISOPROPAMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1621597,IPRATROPIUM,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3545272,LAS190792,False,1,Small molecule,CHRM3,other,yes
+CHEMBL524004,MEPENZOLATE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1200950,CLIDINIUM BROMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3707249,ASM-024,False,2,Small molecule,CHRM3,other,yes
+CHEMBL1768,BETHANECHOL CHLORIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1888176,TROSPIUM,True,4,Small molecule,CHRM3,other,yes
+CHEMBL551466,ACLIDINIUM BROMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL363295,TERODILINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3545165,AFACIFENACIN,False,2,Small molecule,CHRM3,other,yes
+CHEMBL1194325,ACLIDINIUM,True,4,Small molecule,CHRM3,other,yes
+CHEMBL2111051,TALSACLIDINE,False,2,Small molecule,CHRM3,other,yes
+CHEMBL2134724,IPRATROPIUM BROMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1201286,OXYPHENONIUM,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1180725,PROPANTHELINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1779046,TARAFENACIN,False,2,Small molecule,CHRM3,other,yes
+CHEMBL2365940,DAROTROPIUM,False,2,Small molecule,CHRM3,other,yes
+CHEMBL376897,METHSCOPOLAMINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1495,OXYPHENCYCLIMINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL53366,IMIDAFENACIN,False,3,Small molecule,CHRM3,other,yes
+CHEMBL1123,DICYCLOMINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1187833,UMECLIDINIUM,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1200935,DARIFENACIN HYDROBROMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL168815,CEVIMELINE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1201325,HEXOCYCLIUM,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1201765,FESOTERODINE FUMARATE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1722209,TOLTERODINE TARTRATE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3039518,BATEFENTEROL,False,2,Small molecule,CHRM3,other,yes
+CHEMBL1200479,DICYCLOMINE HYDROCHLORIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3833319,REVEFENACIN,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1200604,TROPICAMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL965,CARBACHOL,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1200764,METHACHOLINE CHLORIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL14,CARBACHOL,True,4,Small molecule,CHRM3,other,yes
+CHEMBL3707224,SOFPIRONIUM,False,3,Small molecule,CHRM3,other,yes
+CHEMBL620,CLIDINIUM,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1201340,DIPHEMANIL,True,4,Small molecule,CHRM3,other,yes
+CHEMBL523299,UMECLIDINIUM BROMIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL1201354,TRIDIHEXETHYL,True,4,Small molecule,CHRM3,other,yes
+CHEMBL2308782,DAROTROPIUM BROMIDE,False,2,Small molecule,CHRM3,other,yes
+CHEMBL3707223,SOFPIRONIUM BROMIDE,False,3,Small molecule,CHRM3,other,yes
+CHEMBL1200473,CYCLOPENTOLATE HYDROCHLORIDE,True,4,Small molecule,CHRM3,other,yes
+CHEMBL4297483,NAVAFENTEROL,False,2,Small molecule,CHRM3,other,yes
+CHEMBL2103827,DROXIDOPA,True,4,Small molecule,ADRB2,other,yes
+CHEMBL500,PINDOLOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1263,SALMETEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1002,LEVOSALBUTAMOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1290,PENBUTOLOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1760,TERBUTALINE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL2012520,LY377604,False,2,Small molecule,ADRB2,other,yes
+CHEMBL1201213,ISOETHARINE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1789842,INDACATEROL MALEATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL3545272,LAS190792,False,1,Small molecule,ADRB2,other,yes
+CHEMBL546,OXPRENOLOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL2111083,BEDORADRINE,False,2,Small molecule,ADRB2,other,yes
+CHEMBL3545103,AZD3199,False,2,Small molecule,ADRB2,other,yes
+CHEMBL1201237,LEVOBUNOLOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1315867,TERBUTALINE SULFATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL3545087,GSK159802,False,1,Small molecule,ADRB2,other,yes
+CHEMBL49080,CLENBUTEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL631,PROPAFENONE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL83063,RITODRINE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL926,DOBUTAMINE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201731,NEBIVOLOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL27810,CELIPROLOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1094966,PIRBUTEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1159717,TULOBUTEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1363,ARFORMOTEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1441059,ALBUTEROL SULFATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL160519,PROCATEROL,False,3,Small molecule,ADRB2,other,yes
+CHEMBL1200444,PIRBUTEROL ACETATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201115,ESMOLOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1523964,EPHEDRINE SULFATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL2107546,BUCINDOLOL HYDROCHLORIDE,False,2,Small molecule,ADRB2,other,yes
+CHEMBL605846,OLODATEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201002,CARTEOLOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1256958,EPINEPHRINE BITARTRATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1434513,NOREPINEPHRINE BITARTRATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL429,LABETALOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL521589,BAMBUTEROL,False,3,Small molecule,ADRB2,other,yes
+CHEMBL1095777,INDACATEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1200418,DOBUTAMINE HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1240967,PF-00610355,False,2,Small molecule,ADRB2,other,yes
+CHEMBL321582,BUCINDOLOL,False,2,Small molecule,ADRB2,other,yes
+CHEMBL1940832,MILVETEROL,False,2,Small molecule,ADRB2,other,yes
+CHEMBL2218893,BEDORADRINE SULFATE,False,2,Small molecule,ADRB2,other,yes
+CHEMBL3989693,LEVALBUTEROL TARTRATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1094785,CARMOTEROL,False,2,Small molecule,ADRB2,other,yes
+CHEMBL1951071,ARFORMOTEROL TARTRATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL88055,RIMITEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201063,PROPAFENONE HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL559180,ISOXSUPRINE HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL839,CARTEOLOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201177,LEVOBUNOLOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL776,METAPROTERENOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201061,LEVALBUTEROL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1711,ISOPROTERENOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1197051,ISOXSUPRINE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1568057,METAPROTERENOL SULFATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL2105743,OLODATEROL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL2146102,EPHEDRINE HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL3039518,BATEFENTEROL,False,2,Small molecule,ADRB2,other,yes
+CHEMBL1291,METIPRANOLOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1198857,VILANTEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL471,SOTALOL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1082607,SALMETEROL XINAFOATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201234,MEPHENTERMINE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1700,SOTALOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL32800,FENOTEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1084172,VILANTEROL TRIFENATATE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201262,DIPIVEFRIN,True,4,Small molecule,ADRB2,other,yes
+CHEMBL3039530,ABEDITEROL,False,2,Small molecule,ADRB2,other,yes
+CHEMBL1200323,LABETALOL HYDROCHLORIDE,True,4,Small molecule,ADRB2,other,yes
+CHEMBL1201295,BITOLTEROL,True,4,Small molecule,ADRB2,other,yes
+CHEMBL4297483,NAVAFENTEROL,False,2,Small molecule,ADRB2,other,yes
+CHEMBL142703,VILDAGLIPTIN,True,4,Small molecule,DPP4,other,yes
+CHEMBL2105762,OMARIGLIPTIN,False,3,Small molecule,DPP4,other,yes
+CHEMBL3833357,BEGELOMAB,False,3,Antibody,DPP4,other,yes
+CHEMBL2105754,TRELAGLIPTIN SUCCINATE,False,3,Small molecule,DPP4,other,yes
+CHEMBL591118,CARMEGLIPTIN,False,2,Small molecule,DPP4,other,yes
+CHEMBL1779710,EVOGLIPTIN,False,3,Small molecule,DPP4,other,yes
+CHEMBL4296719,DUTOGLIPTIN,False,3,Small molecule,DPP4,other,yes
+CHEMBL1929396,ANAGLIPTIN,False,3,Small molecule,DPP4,other,yes
+CHEMBL385517,SAXAGLIPTIN,True,4,Small molecule,DPP4,other,yes
+CHEMBL2147777,TENELIGLIPTIN,False,3,Small molecule,DPP4,other,yes
+CHEMBL227529,ALOGLIPTIN BENZOATE,True,4,Small molecule,DPP4,other,yes
+CHEMBL1201174,SITAGLIPTIN PHOSPHATE,True,4,Small molecule,DPP4,other,yes
+CHEMBL515387,GOSOGLIPTIN,False,3,Small molecule,DPP4,other,yes
+CHEMBL1650443,TRELAGLIPTIN,False,3,Small molecule,DPP4,other,yes
+CHEMBL1201743,SAXAGLIPTIN HYDROCHLORIDE,True,4,Small molecule,DPP4,other,yes
+CHEMBL4297624,BISEGLIPTIN,False,2,Small molecule,DPP4,other,yes
+CHEMBL376359,ALOGLIPTIN,True,4,Small molecule,DPP4,other,yes
+CHEMBL1174,EPTIFIBATIDE,True,4,Protein,ITGB3,other,yes
+CHEMBL3189072,TIROFIBAN HYDROCHLORIDE,True,4,Small molecule,ITGB3,other,yes
+CHEMBL1201584,ABCIXIMAB,True,4,Antibody,ITGB3,other,yes
+CHEMBL916,TIROFIBAN,True,4,Small molecule,ITGB3,other,yes
+CHEMBL2103827,DROXIDOPA,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1200461,MIDODRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL12713,SERTINDOLE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL2106041,AVIPTADIL,False,3,Protein,ADRA1B,other,yes
+CHEMBL2311030,ERGOLOID MESYLATES,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL442,ERGOTAMINE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL524,METHOXAMINE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL2448612,ERGOTAMINE TARTRATE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1523964,EPHEDRINE SULFATE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL2107546,BUCINDOLOL HYDROCHLORIDE,False,2,Small molecule,ADRA1B,other,yes
+CHEMBL3559672,RAUWOLFIA SERPENTINA,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1201212,MIDODRINE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1256958,EPINEPHRINE BITARTRATE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1434513,NOREPINEPHRINE BITARTRATE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL429,LABETALOL,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL321582,BUCINDOLOL,False,2,Small molecule,ADRA1B,other,yes
+CHEMBL644,TRIMIPRAMINE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL770,TOLAZOLINE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1200791,OXYMETAZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL559180,ISOXSUPRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1197051,ISOXSUPRINE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1558,PRAZOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL2146102,EPHEDRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL2364968,ERGOLOID,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1201319,METARAMINOL,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1201103,METHOXAMINE HYDROCHLORIDE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL159226,MOXISYLYTE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1201234,MEPHENTERMINE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL188185,BUNAZOSIN,False,3,Small molecule,ADRA1B,other,yes
+CHEMBL1201262,DIPIVEFRIN,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL1200323,LABETALOL HYDROCHLORIDE,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL2,PRAZOSIN,True,4,Small molecule,ADRA1B,other,yes
+CHEMBL2103827,DROXIDOPA,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1201044,DAPIPRAZOLE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1200461,MIDODRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1201216,DAPIPRAZOLE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL12713,SERTINDOLE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL2104986,TEDATIOXETINE,False,2,Small molecule,ADRA1A,other,yes
+CHEMBL2106041,AVIPTADIL,False,3,Protein,ADRA1A,other,yes
+CHEMBL2311030,ERGOLOID MESYLATES,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL442,ERGOTAMINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL524,METHOXAMINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL2448612,ERGOTAMINE TARTRATE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1523964,EPHEDRINE SULFATE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL2107546,BUCINDOLOL HYDROCHLORIDE,False,2,Small molecule,ADRA1A,other,yes
+CHEMBL3559672,RAUWOLFIA SERPENTINA,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1201212,MIDODRINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1256958,EPINEPHRINE BITARTRATE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1434513,NOREPINEPHRINE BITARTRATE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL429,LABETALOL,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL321582,BUCINDOLOL,False,2,Small molecule,ADRA1A,other,yes
+CHEMBL644,TRIMIPRAMINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL770,TOLAZOLINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1200791,OXYMETAZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL559180,ISOXSUPRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1200695,PHENYLPROPANOLAMINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1197051,ISOXSUPRINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1558,PRAZOSIN HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL2146102,EPHEDRINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL2364968,ERGOLOID,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1201319,METARAMINOL,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL61006,PHENYLPROPANOLAMINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1201103,METHOXAMINE HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL159226,MOXISYLYTE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1201234,MEPHENTERMINE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL188185,BUNAZOSIN,False,3,Small molecule,ADRA1A,other,yes
+CHEMBL1201262,DIPIVEFRIN,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL1200323,LABETALOL HYDROCHLORIDE,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL2,PRAZOSIN,True,4,Small molecule,ADRA1A,other,yes
+CHEMBL2103827,DROXIDOPA,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1255582,FIPAMEZOLE,False,2,Small molecule,ADRA2A,other,yes
+CHEMBL17860,LOFEXIDINE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1200329,TIZANIDINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1366933,ESMIRTAZAPINE,False,3,Small molecule,ADRA2A,other,yes
+CHEMBL2106041,AVIPTADIL,False,3,Protein,ADRA2A,other,yes
+CHEMBL2311030,ERGOLOID MESYLATES,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL442,ERGOTAMINE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL2106195,DEXMEDETOMIDINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL27810,CELIPROLOL,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL862,GUANFACINE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL459,METHYLDOPA,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1788132,LOFEXIDINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL2448612,ERGOTAMINE TARTRATE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1200494,GUANFACINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1523964,EPHEDRINE SULFATE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL3559672,RAUWOLFIA SERPENTINA,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1256958,EPINEPHRINE BITARTRATE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1434513,NOREPINEPHRINE BITARTRATE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL2107339,ESMIRTAZAPINE MALEATE,False,3,Small molecule,ADRA2A,other,yes
+CHEMBL429,LABETALOL,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL770,TOLAZOLINE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL420,GUANABENZ,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1200379,APRACLONIDINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1200791,OXYMETAZOLINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL2146102,EPHEDRINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL2364968,ERGOLOID,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL10316,IDAZOXAN,False,3,Small molecule,ADRA2A,other,yes
+CHEMBL1705,CLONIDINE HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL159226,MOXISYLYTE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1201234,MEPHENTERMINE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1201262,DIPIVEFRIN,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL1200323,LABETALOL HYDROCHLORIDE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL647,APRACLONIDINE,True,4,Small molecule,ADRA2A,other,yes
+CHEMBL2109253,HOKT3,False,3,Antibody,CD3E,other,no
+CHEMBL1743078,TEPLIZUMAB,False,3,Antibody,CD3E,other,no
+CHEMBL1743020,FORALUMAB,False,2,Antibody,CD3E,other,no
+CHEMBL1743053,OTELIXIZUMAB,False,3,Antibody,CD3E,other,no
+CHEMBL2109460,SCH-708980,False,2,Antibody,IL10,other,yes
+CHEMBL2109616,ABX-IL8,False,2,Antibody,CXCL8,other,yes
+CHEMBL4650326,TEREVALEFIM,False,3,Small molecule,MET,other,yes
+CHEMBL23261,DARUSENTAN,False,3,Small molecule,EDNRA,other,yes
+CHEMBL2165326,APROCITENTAN,False,3,Small molecule,EDNRA,other,yes
+CHEMBL282724,SITAXENTAN,True,4,Small molecule,EDNRA,other,yes
+CHEMBL109648,CLAZOSENTAN,False,3,Small molecule,EDNRA,other,yes
+CHEMBL3989834,AVOSENTAN,False,3,Small molecule,EDNRA,other,yes
+CHEMBL61780,TEZOSENTAN,False,3,Small molecule,EDNRA,other,yes
+CHEMBL539423,SPARSENTAN,False,3,Small molecule,EDNRA,other,yes
+CHEMBL23261,DARUSENTAN,False,3,Small molecule,EDNRB,other,yes
+CHEMBL2165326,APROCITENTAN,False,3,Small molecule,EDNRB,other,yes
+CHEMBL282724,SITAXENTAN,True,4,Small molecule,EDNRB,other,yes
+CHEMBL61780,TEZOSENTAN,False,3,Small molecule,EDNRB,other,yes
+CHEMBL2364653,ANIFROLUMAB,True,4,Antibody,IFNAR1,other,no
+CHEMBL2109047,INTERFERON ALFA-N3,True,4,Protein,IFNAR1,other,no
+CHEMBL1201563,INTERFERON BETA-1B,True,4,Protein,IFNAR1,other,no
+CHEMBL2107842,ALBINTERFERON ALFA-2B,False,3,Protein,IFNAR1,other,no
+CHEMBL2108677,PEGINTERFERON BETA-1A,True,4,Protein,IFNAR1,other,no
+CHEMBL1201557,INTERFERON ALFACON-1,True,4,Protein,IFNAR1,other,no
+CHEMBL1201562,INTERFERON BETA-1A,True,4,Protein,IFNAR1,other,no
+CHEMBL403989,TG100-801,False,2,Small molecule,FGFR2,other,yes
+CHEMBL2108081,TRAFERMIN,False,3,Protein,FGFR2,other,yes
+CHEMBL403989,TG100-801,False,2,Small molecule,FLT1,other,yes
+CHEMBL2108557,TELBERMIN,False,2,Protein,FLT1,other,yes
+CHEMBL403989,TG100-801,False,2,Small molecule,FGFR1,other,yes
+CHEMBL3137308,PEFICITINIB,False,3,Small molecule,TYK2,other,yes
+CHEMBL3622821,UPADACITINIB,True,4,Small molecule,TYK2,other,yes
+CHEMBL2103743,TOFACITINIB CITRATE,True,4,Small molecule,TYK2,other,yes
+CHEMBL4596392,DEUCRAVACITINIB,False,3,Small molecule,TYK2,other,yes
+CHEMBL4650343,IZENCITINIB,False,2,Small molecule,TYK2,other,yes
+CHEMBL4459585,ROPSACITINIB,False,2,Small molecule,TYK2,other,yes
+CHEMBL4297477,BREPOCITINIB,False,2,Small molecule,TYK2,other,yes
+CHEMBL4435170,DEUCRAVACITINIB,False,3,Small molecule,TYK2,other,yes
+CHEMBL4297507,DELGOCITINIB,False,3,Small molecule,TYK2,other,yes
+CHEMBL2109325,AMG-191,False,1,Antibody,KIT,other,yes
+CHEMBL4297260,AMY-101,False,2,Protein,C3,other,no
+CHEMBL4298211,PEGCETACOPLAN,True,4,Protein,C3,other,no
+CHEMBL4594457,AL-78898A,False,2,Unknown,C3,other,no
+CHEMBL4297734,CRIZANLIZUMAB,True,4,Antibody,SELP,other,yes
+CHEMBL1215923,BIMOSIAMOSE,False,2,Small molecule,SELP,other,yes
+CHEMBL3707446,RIVIPANSEL,False,3,Small molecule,SELP,other,yes
+CHEMBL2109488,INCLACUMAB,False,3,Antibody,SELP,other,yes
+CHEMBL4297743,ELEZANUMAB,False,2,Antibody,RGMA,other,yes
+CHEMBL748,PRALIDOXIME CHLORIDE,True,4,Small molecule,ACHE,other,no
+CHEMBL1104,EDROPHONIUM,True,4,Small molecule,ACHE,other,no
+CHEMBL94,PHYSOSTIGMINE,True,4,Small molecule,ACHE,other,no
+CHEMBL659,GALANTAMINE,True,4,Small molecule,ACHE,other,no
+CHEMBL1025,ISOFLUROPHATE,True,4,Small molecule,ACHE,other,no
+CHEMBL211471,NEOSTIGMINE METHYLSULFATE,True,4,Small molecule,ACHE,other,no
+CHEMBL2107308,ACOTIAMIDE HYDROCHLORIDE,False,3,Small molecule,ACHE,other,no
+CHEMBL95,TACRINE,True,4,Small molecule,ACHE,other,no
+CHEMBL1115,PYRIDOSTIGMINE,True,4,Small molecule,ACHE,other,no
+CHEMBL636,RIVASTIGMINE,True,4,Small molecule,ACHE,other,no
+CHEMBL1201229,DEMECARIUM,True,4,Small molecule,ACHE,other,no
+CHEMBL1555,GALANTAMINE HYDROBROMIDE,True,4,Small molecule,ACHE,other,no
+CHEMBL215645,RIVASTIGMINE TARTRATE,True,4,Small molecule,ACHE,other,no
+CHEMBL2107457,ITOPRIDE,False,3,Small molecule,ACHE,other,no
+CHEMBL1420,PRALIDOXIME,True,4,Small molecule,ACHE,other,no
+CHEMBL278819,MINAPRINE,True,4,Small molecule,ACHE,other,no
+CHEMBL1201341,ECHOTHIOPHATE,True,4,Small molecule,ACHE,other,no
+CHEMBL1200367,ECHOTHIOPHATE IODIDE,True,4,Small molecule,ACHE,other,no
+CHEMBL812,PYRIDOSTIGMINE BROMIDE,True,4,Small molecule,ACHE,other,no
+CHEMBL2107723,ACOTIAMIDE,False,3,Small molecule,ACHE,other,no
+CHEMBL1201556,BECAPLERMIN,True,4,Protein,PDGFRA,other,no
+CHEMBL403989,TG100-801,False,2,Small molecule,PDGFRB,other,no
+CHEMBL1201556,BECAPLERMIN,True,4,Protein,PDGFRB,other,no
+CHEMBL3545316,RINUCUMAB,False,2,Antibody,PDGFRB,other,no
+CHEMBL2107911,ONERCEPT,False,3,Protein,TNF,other,yes
+CHEMBL2108887,AFELIMOMAB,False,0,Antibody,TNF,other,yes
+CHEMBL2108739,PLACULUMAB,False,2,Antibody,TNF,other,yes
+CHEMBL1743057,PEGSUNERCEPT,False,2,Protein,TNF,other,yes
+CHEMBL4297863,REMTOLUMAB,False,2,Antibody,TNF,other,yes
+CHEMBL1743054,OZORALIZUMAB,False,2,Antibody,TNF,other,yes
+CHEMBL2364574,DOXYCYCLINE CALCIUM,True,4,Small molecule,MMP7,other,yes
+CHEMBL3989740,DOXYCYCLINE HYCLATE,True,4,Small molecule,MMP7,other,yes
+CHEMBL189475,LADARIXIN,False,3,Small molecule,CXCR2,other,yes
+CHEMBL3039531,DANIRIXIN,False,2,Small molecule,CXCR2,other,yes
+CHEMBL216981,NAVARIXIN,False,2,Small molecule,CXCR2,other,yes
+CHEMBL2178579,ELUBRIXIN,False,2,Small molecule,CXCR2,other,yes
+CHEMBL189475,LADARIXIN,False,3,Small molecule,CXCR1,other,yes
+CHEMBL216981,NAVARIXIN,False,2,Small molecule,CXCR1,other,yes
+CHEMBL2028852,ICATIBANT ACETATE,True,4,Protein,BDKRB2,other,yes
+CHEMBL218427,FASITIBANT,False,2,Small molecule,BDKRB2,other,yes
+CHEMBL2028850,ICATIBANT,True,4,Protein,BDKRB2,other,yes
+CHEMBL2107831,LUSUTROMBOPAG,True,4,Small molecule,MPL,other,yes
+CHEMBL2103883,AVATROMBOPAG,True,4,Small molecule,MPL,other,yes
+CHEMBL2105758,AVATROMBOPAG MALEATE,True,4,Small molecule,MPL,other,yes
+CHEMBL2108712,PLOVAMER ACETATE,False,2,Small molecule,HLA-DRB1,other,yes
+CHEMBL2108767,RUPLIZUMAB,False,3,Antibody,CD40LG,other,yes
+CHEMBL4298212,RAVAGALIMAB,False,2,Antibody,CD40LG,other,yes
+CHEMBL2109478,DAPIROLIZUMAB PEGOL,False,3,Antibody,CD40LG,other,yes
+CHEMBL4594331,DAZODALIBEP,False,2,Protein,CD40LG,other,yes
+CHEMBL4594460,AT-1501,False,2,Unknown,CD40LG,other,yes
+CHEMBL2109047,INTERFERON ALFA-N3,True,4,Protein,IFNAR2,other,no
+CHEMBL1201563,INTERFERON BETA-1B,True,4,Protein,IFNAR2,other,no
+CHEMBL2107842,ALBINTERFERON ALFA-2B,False,3,Protein,IFNAR2,other,no
+CHEMBL2108677,PEGINTERFERON BETA-1A,True,4,Protein,IFNAR2,other,no
+CHEMBL1201557,INTERFERON ALFACON-1,True,4,Protein,IFNAR2,other,no
+CHEMBL1201562,INTERFERON BETA-1A,True,4,Protein,IFNAR2,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,FN1,other,yes
+CHEMBL3137353,BIMAGRUMAB,False,3,Antibody,ACVR2B,other,yes
+CHEMBL4297852,CENEGERMIN,True,4,Protein,NTRK3,other,yes
+CHEMBL3545374,TREVOGRUMAB,False,2,Antibody,MSTN,other,yes
+CHEMBL2108051,STAMULUMAB,False,2,Antibody,MSTN,other,yes
+CHEMBL2108674,RAMATERCEPT,False,2,Protein,MSTN,other,yes
+CHEMBL4594326,APITEGROMAB,False,2,Antibody,MSTN,other,yes
+CHEMBL3544991,DOMAGROZUMAB,False,2,Antibody,MSTN,other,yes
+CHEMBL3916243,ATABECESTAT,False,2,Small molecule,BACE1,other,no
+CHEMBL4204869,ELENBECESTAT,False,3,Small molecule,BACE1,other,no
+CHEMBL3989948,LANABECESTAT,False,3,Small molecule,BACE1,other,no
+CHEMBL3301601,VERUBECESTAT,False,3,Small molecule,BACE1,other,no
+CHEMBL2109449,MEDI-570,False,1,Antibody,ICOS,other,yes
+CHEMBL2110727,CENICRIVIROC,False,3,Small molecule,CCR5,other,yes
+CHEMBL2109341,CCR5MAB004,False,1,Antibody,CCR5,other,yes
+CHEMBL3545032,PF-04634817,False,2,Small molecule,CCR5,other,yes
+CHEMBL1649931,PF-232798,False,2,Small molecule,CCR5,other,yes
+CHEMBL1951914,AZD5672,False,2,Small molecule,CCR5,other,yes
+CHEMBL2109342,HGS-1025,False,1,Antibody,CCR5,other,yes
+CHEMBL2107384,VICRIVIROC MALEATE,False,3,Small molecule,CCR5,other,yes
+CHEMBL1688243,INCB-9471,False,2,Small molecule,CCR5,other,yes
+CHEMBL1255794,APLAVIROC,False,3,Small molecule,CCR5,other,yes
+CHEMBL1668019,APLAVIROC HYDROCHLORIDE,False,3,Small molecule,CCR5,other,yes
+CHEMBL1201545,INSULIN SUSP ISOPHANE BEEF,True,4,Protein,INSR,other,yes
+CHEMBL1201611,INSULIN LISPRO PROTAMINE RECOMBINANT,True,4,Protein,INSR,other,yes
+CHEMBL2107869,INSULIN DEGLUDEC,True,4,Protein,INSR,other,yes
+CHEMBL1201540,INSULIN SUSP ISOPHANE RECOMBINANT HUMAN,True,4,Protein,INSR,other,yes
+CHEMBL1201630,INSULIN PURIFIED PORK,True,4,Protein,INSR,other,yes
+CHEMBL1201538,INSULIN LISPRO,True,4,Protein,INSR,other,yes
+CHEMBL1201644,INSULIN ZINC SUSP RECOMBINANT HUMAN,True,4,Protein,INSR,other,yes
+CHEMBL2108569,INSULIN PEGLISPRO,False,3,Protein,INSR,other,yes
+CHEMBL1201629,INSULIN PURIFIED BEEF,True,4,Protein,INSR,other,yes
+CHEMBL2104391,INSULIN DETEMIR,True,4,Protein,INSR,other,yes
+CHEMBL1201664,INSULIN ASPART PROTAMINE RECOMBINANT,True,4,Protein,INSR,other,yes
+CHEMBL1201613,INSULIN GLULISINE,True,4,Protein,INSR,other,yes
+CHEMBL1201627,INSULIN SUSP ISOPHANE SEMISYNTHETIC PURIFIED HUMAN,True,4,Protein,INSR,other,yes
+CHEMBL1201575,EFALIZUMAB,True,4,Antibody,ITGAL,other,yes
+CHEMBL2048028,LIFITEGRAST,True,4,Small molecule,ITGAL,other,yes
+CHEMBL3707290,SOMAPACITAN,True,4,Small molecule,GHR,other,yes
+CHEMBL4298185,LONAPEGSOMATROPIN,True,4,Protein,GHR,other,yes
+CHEMBL1743039,MAVRILIMUMAB,False,2,Antibody,CSF2RA,other,no
+CHEMBL1078685,TOPIROXOSTAT,False,2,Small molecule,XDH,other,no
+CHEMBL1200477,ALLOPURINOL SODIUM,True,4,Small molecule,XDH,other,no
+CHEMBL1089221,BENDAZAC,True,4,Small molecule,XDH,other,no
+CHEMBL1164729,FEBUXOSTAT,True,4,Small molecule,XDH,other,no
+CHEMBL859,OXYPURINOL,True,4,Small molecule,XDH,other,no
+CHEMBL1963684,PEGINESATIDE ACETATE,True,4,Protein,EPOR,other,yes
+CHEMBL2107866,PEGINESATIDE,False,3,Protein,EPOR,other,yes
+CHEMBL3707314,METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA,True,4,Protein,EPOR,other,yes
+CHEMBL2109300,GSK933776,False,2,Antibody,APP,other,yes
+CHEMBL1743058,PONEZUMAB,False,2,Antibody,APP,other,yes
+CHEMBL2108576,BAPINEUZUMAB,False,3,Antibody,APP,other,yes
+CHEMBL4297245,DONANEMAB,False,3,Antibody,APP,other,yes
+CHEMBL1743004,CRENEZUMAB,False,3,Antibody,APP,other,yes
+CHEMBL149082,TRAMIPROSATE,False,3,Small molecule,APP,other,yes
+CHEMBL2108058,VANUTIDE CRIDIFICAR,False,2,Protein,APP,other,yes
+CHEMBL3833321,LECANEMAB,False,3,Antibody,APP,other,yes
+CHEMBL1743025,GANTENERUMAB,False,3,Antibody,APP,other,yes
+CHEMBL1743072,SOLANEZUMAB,False,3,Antibody,APP,other,yes
+CHEMBL3039540,ADUCANUMAB,True,4,Antibody,APP,other,yes
+CHEMBL3833307,SATRALIZUMAB,True,4,Antibody,IL6R,other,yes
+CHEMBL3833343,VOBARILIZUMAB,False,2,Antibody,IL6R,other,yes
+CHEMBL4650406,LEVILIMAB,False,3,Antibody,IL6R,other,yes
+CHEMBL3833307,SATRALIZUMAB,True,4,Antibody,IL6ST,other,yes
+CHEMBL4650296,BOS-589,False,2,Unknown,RET,other,yes
+CHEMBL1201716,MECASERMIN,True,4,Protein,IGF1R,other,yes
+CHEMBL1201717,MECASERMIN RINFABATE,True,4,Protein,IGF1R,other,yes
+CHEMBL3989977,EMAPALUMAB,True,4,Antibody,IFNG,other,yes
+CHEMBL2108459,FONTOLIZUMAB,False,2,Antibody,IFNG,other,yes
+CHEMBL2109450,AMG-811,False,1,Antibody,IFNG,other,yes
+CHEMBL4594567,KHK-4083,False,2,Unknown,TNFRSF4,other,no
+CHEMBL4594546,TELAZORLIMAB,False,2,Antibody,TNFRSF4,other,no
+CHEMBL3137351,ABRILUMAB,False,2,Antibody,ITGA4,other,yes
+CHEMBL2104967,FIRATEGRAST,False,2,Small molecule,ITGA4,other,yes
+CHEMBL1201830,RILONACEPT,True,4,Protein,IL1B,other,yes
+CHEMBL4594518,LUTIKIZUMAB,False,2,Antibody,IL1B,other,yes
+CHEMBL1742986,ATACICEPT,False,2,Protein,TNFSF13B,other,no
+CHEMBL3990000,TIBULIZUMAB,False,2,Antibody,TNFSF13B,other,no
+CHEMBL2107877,BLISIBIMOD,False,3,Protein,TNFSF13B,other,no
+CHEMBL3137351,ABRILUMAB,False,2,Antibody,ITGB7,other,yes
+CHEMBL1743015,ETROLIZUMAB,False,3,Antibody,ITGB7,other,yes
+CHEMBL2104967,FIRATEGRAST,False,2,Small molecule,ITGB7,other,yes
+CHEMBL325424,ALEPLASININ,False,1,Small molecule,SERPINE1,other,no
+CHEMBL4297578,PEGBELFERMIN,False,2,Protein,FGF1,other,yes
+CHEMBL4297909,BFKB-8488A,False,2,Unknown,FGF1,other,yes
+CHEMBL1201421,PEGAPTANIB SODIUM,True,4,Unknown,VEGFA,other,no
+CHEMBL2108752,PEGAPTANIB OCTASODIUM,False,3,Unknown,VEGFA,other,no
+CHEMBL4297684,ABICIPAR PEGOL,False,3,Protein,VEGFA,other,no
+CHEMBL2108313,CONBERCEPT,False,3,Protein,VEGFA,other,no
+CHEMBL3707357,BROLUCIZUMAB,True,4,Antibody,VEGFA,other,no
+CHEMBL4297750,FARICIMAB,False,3,Antibody,VEGFA,other,no
+CHEMBL2109511,ONTAMALIMAB,False,3,Antibody,MADCAM1,other,yes
+CHEMBL2109613,PF-04236921,False,2,Antibody,IL6,other,no
+CHEMBL2108589,CLAZAKIZUMAB,False,3,Antibody,IL6,other,no
+CHEMBL2109615,MRA 003 US,False,1,Antibody,IL6,other,no
+CHEMBL2109614,MEDI-5117,False,1,Antibody,IL6,other,no
+CHEMBL1743050,OLOKIZUMAB,False,3,Antibody,IL6,other,no
+CHEMBL1743071,SIRUKUMAB,False,3,Antibody,IL6,other,no
+CHEMBL4297732,ZILTIVEKIMAB,False,2,Antibody,IL6,other,no
+CHEMBL2204263,JNJ-41443532,False,2,Small molecule,CCR2,other,yes
+CHEMBL2110727,CENICRIVIROC,False,3,Small molecule,CCR2,other,yes
+CHEMBL4297538,MK-0812,False,2,Small molecule,CCR2,other,yes
+CHEMBL4457723,BMS-741672,False,2,Small molecule,CCR2,other,yes
+CHEMBL3545032,PF-04634817,False,2,Small molecule,CCR2,other,yes
+CHEMBL3545221,AZD2423,False,2,Small molecule,CCR2,other,yes
+CHEMBL2178573,ILACIRNON,False,2,Small molecule,CCR2,other,yes
+CHEMBL3137352,RALPANCIZUMAB,False,1,Antibody,PCSK9,other,yes
+CHEMBL3137349,BOCOCIZUMAB,False,3,Antibody,PCSK9,other,yes
+CHEMBL2109540,ALIROCUMAB,True,4,Antibody,PCSK9,other,yes
+CHEMBL4594554,TAFOLECIMAB,False,3,Antibody,PCSK9,other,yes
+CHEMBL4298016,FROVOCIMAB,False,2,Antibody,PCSK9,other,yes
+CHEMBL3990033,INCLISIRAN,True,4,Oligonucleotide,PCSK9,other,yes
+CHEMBL4650461,CSL-324,False,2,Unknown,CSF3R,other,no
+CHEMBL3989871,AVACOPAN,True,4,Small molecule,C5AR1,other,no
+CHEMBL4650514,BATOCLIMAB,False,2,Antibody,FCGRT,other,yes
+CHEMBL4594310,NIPOCALIMAB,False,3,Antibody,FCGRT,other,yes
+CHEMBL4297551,EFGARTIGIMOD ALFA,False,3,Protein,FCGRT,other,yes
+CHEMBL4297820,ROZANOLIXIZUMAB,False,3,Antibody,FCGRT,other,yes
+CHEMBL1742990,BELATACEPT,True,4,Protein,CD80,other,yes
+CHEMBL1742990,BELATACEPT,True,4,Protein,CD86,other,no
+CHEMBL2107455,IGURATIMOD,False,3,Small molecule,MIF,other,no
+CHEMBL1201549,TERIPARATIDE ACETATE,True,4,Protein,PTH1R,other,yes
+CHEMBL3301581,ABALOPARATIDE,True,4,Protein,PTH1R,other,yes
+CHEMBL2108078,PARATHYROID HORMONE,True,4,Protein,PTH1R,other,yes
+CHEMBL525610,TERIPARATIDE,True,4,Protein,PTH1R,other,yes
+CHEMBL3137354,LULIZUMAB PEGOL,False,2,Antibody,CD28,other,no
+CHEMBL2109664,ELDELUMAB,False,2,Antibody,CXCL10,other,no
+CHEMBL4594565,PABINAFUSP ALFA,False,3,Protein,TFRC,other,no
+CHEMBL3301604,RALINEPAG,False,3,Small molecule,PTGIR,other,yes
+CHEMBL962,EPOPROSTENOL SODIUM,True,4,Small molecule,PTGIR,other,yes
+CHEMBL3137314,ESUBERAPROST,False,3,Small molecule,PTGIR,other,yes
+CHEMBL1139,EPOPROSTENOL,True,4,Small molecule,PTGIR,other,yes
+CHEMBL2107815,TREPROSTINIL DIOLAMINE,True,4,Small molecule,PTGIR,other,yes
+CHEMBL238804,SELEXIPAG,True,4,Small molecule,PTGIR,other,yes
+CHEMBL3334824,BMS-817399,False,2,Small molecule,CCR1,other,yes
+CHEMBL3545404,CCX354,False,2,Small molecule,CCR1,other,yes
+CHEMBL2178570,AZD4818,False,2,Small molecule,CCR1,other,yes
+CHEMBL2104967,FIRATEGRAST,False,2,Small molecule,ITGB1,other,yes
+CHEMBL4297533,BREMELANOTIDE ACETATE,True,4,Protein,MC4R,other,yes
+CHEMBL2070241,BREMELANOTIDE,True,4,Protein,MC4R,other,yes
+CHEMBL4650273,SETMELANOTIDE ACETATE,True,4,Protein,MC4R,other,yes
+CHEMBL1090488,PF-00446687,False,2,Small molecule,MC4R,other,yes
+CHEMBL3301624,SETMELANOTIDE,True,4,Protein,MC4R,other,yes
+CHEMBL4650441,IMSIDOLIMAB,False,2,Antibody,IL1RAP,other,yes
+CHEMBL4297911,SPESOLIMAB,False,3,Antibody,IL1RAP,other,yes
+CHEMBL3990014,MIRIKIZUMAB,False,3,Antibody,IL23A,other,no
+CHEMBL3833372,BRAZIKUMAB,False,3,Antibody,IL23A,other,no
+CHEMBL3990029,RISANKIZUMAB,True,4,Antibody,IL23A,other,no
+CHEMBL2109330,IC14,False,2,Antibody,CD14,other,yes
+CHEMBL4297333,VB-201,False,2,Small molecule,CD14,other,yes
+CHEMBL3990028,BLESELUMAB,False,2,Antibody,CD40,other,yes
+CHEMBL2109475,PG-102,False,2,Antibody,CD40,other,yes
+CHEMBL4298210,ISCALIMAB,False,2,Antibody,CD40,other,yes
+CHEMBL1743020,FORALUMAB,False,2,Antibody,CD3D,other,no
+CHEMBL1743020,FORALUMAB,False,2,Antibody,CD3G,other,yes
+CHEMBL2108054,TADEKINIG ALFA,False,3,Protein,IL18,other,yes
+CHEMBL2109606,GSK-1070806,False,2,Antibody,IL18,other,yes
+CHEMBL2109585,LY-2382770,False,2,Antibody,TGFB1,other,yes
+CHEMBL2105659,VARESPLADIB METHYL,False,3,Small molecule,PLA2G2A,other,yes
+CHEMBL148674,VARESPLADIB,False,2,Small molecule,PLA2G2A,other,yes
+CHEMBL2108723,PEGINTERFERON LAMBDA-1A,False,3,Protein,IFNLR1,other,yes
+CHEMBL2108723,PEGINTERFERON LAMBDA-1A,False,3,Protein,IL10RB,other,yes
+CHEMBL371064,BALICATIB,False,2,Small molecule,CTSK,other,no
+CHEMBL463981,BEGACESTAT,False,1,Small molecule,PSEN1,other,no
+CHEMBL520733,SEMAGACESTAT,False,3,Small molecule,PSEN1,other,no
+CHEMBL1090771,AVAGACESTAT,False,2,Small molecule,PSEN1,other,no
+CHEMBL2048028,LIFITEGRAST,True,4,Small molecule,ITGB2,other,yes
+CHEMBL2109530,ASK-8007,False,2,Antibody,SPP1,other,yes
+CHEMBL1215923,BIMOSIAMOSE,False,2,Small molecule,SELE,other,yes
+CHEMBL3707446,RIVIPANSEL,False,3,Small molecule,SELE,other,yes
+CHEMBL2108339,EGAPTIVON PEGOL,False,2,Protein,VWF,other,yes
+CHEMBL2109624,CAPLACIZUMAB,True,4,Antibody,VWF,other,yes
+CHEMBL2109103,BERTILIMUMAB,False,2,Antibody,CCL11,other,no
+CHEMBL4297861,NEIHULIZUMAB,False,2,Antibody,SELPLG,other,yes
+CHEMBL4594594,ITEPEKIMAB,False,3,Antibody,IL33,other,yes
+CHEMBL4650487,TORUDOKIMAB,False,2,Antibody,IL33,other,yes
+CHEMBL4297580,ETOKIMAB,False,2,Antibody,IL33,other,yes
+CHEMBL308148,SAREDUTANT,False,3,Small molecule,TACR2,other,yes
+CHEMBL266125,IBODUTANT,False,3,Small molecule,TACR2,other,yes
+CHEMBL4297352,AZD-1236,False,2,Small molecule,MMP9,other,yes
+CHEMBL4297846,UB-421,False,3,Unknown,CD4,other,yes
+CHEMBL1743083,TREGALIZUMAB,False,2,Antibody,CD4,other,yes
+CHEMBL4298127,VRC-01LS,False,2,Unknown,CD4,other,yes
+CHEMBL1743029,IBALIZUMAB,True,4,Antibody,CD4,other,yes
+CHEMBL2108326,ALICAFORSEN,False,3,Oligonucleotide,ICAM1,other,yes
+CHEMBL2109249,AMG-557,False,2,Antibody,ICOSLG,other,yes
+CHEMBL2109607,MEDI-8968,False,2,Antibody,IL1R1,other,yes
+CHEMBL2109458,AMG-108,False,2,Antibody,IL1R1,other,yes
+CHEMBL4594518,LUTIKIZUMAB,False,2,Antibody,IL1A,other,no
+CHEMBL4594573,LY-3016859,False,2,Unknown,TGFA,other,yes
+CHEMBL225157,RESATORVID,False,3,Small molecule,TLR4,other,yes
+CHEMBL2109467,ORDESEKIMAB,False,2,Antibody,IL15,other,yes
+CHEMBL3716552,BMS-986141,False,2,Small molecule,F2RL3,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL1A1,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL3A1,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL4A5,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL1A2,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL4A4,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL6A1,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL6A3,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL5A2,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL5A3,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL6A2,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL28A1,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL15A1,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL5A1,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL18A1,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL4A2,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,COL4A1,other,no
+CHEMBL4297638,PETESICATIB,False,2,Small molecule,CTSS,other,yes
+CHEMBL493982,VORAPAXAR,True,4,Small molecule,F2R,other,yes
+CHEMBL2107386,VORAPAXAR SULFATE,True,4,Small molecule,F2R,other,yes
+CHEMBL4297323,PZ-128,False,2,Protein,F2R,other,yes
+CHEMBL2103856,ATOPAXAR,False,2,Small molecule,F2R,other,yes
+CHEMBL4298197,VUPANORSEN,False,2,Oligonucleotide,ASGR1,other,yes
+CHEMBL2108380,LIATERMIN,False,1,Protein,GFRA1,other,yes
+CHEMBL1743086,VATELIZUMAB,False,2,Antibody,ITGA2,other,yes
+CHEMBL2108313,CONBERCEPT,False,3,Protein,VEGFC,other,yes
+CHEMBL2109590,GSK-1995057,False,1,Antibody,TNFRSF1A,other,yes
+CHEMBL1742988,BAMINERCEPT,False,2,Protein,TNFSF14,other,yes
+CHEMBL1742988,BAMINERCEPT,False,2,Protein,LTB,other,yes
+CHEMBL3353541,GLPG-0974,False,2,Small molecule,FFAR2,other,yes
+CHEMBL4297333,VB-201,False,2,Small molecule,TLR2,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMB2,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMA5,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMA2,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMA4,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMC3,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMC2,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMB3,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMA1,other,yes
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMA3,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMB1,other,no
+CHEMBL2095222,OCRIPLASMIN,True,4,Enzyme,LAMC1,other,no
