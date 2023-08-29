@@ -1,17 +1,19 @@
 # Understanding Metastasis Organotropism Patterns Through Within-cell and Between-cells Molecular Interaction Networks
 
-* AUTHOR: João A. I. Miranda¹ 
-* SUPERVISOR: Francisco R. Pinto¹
-* CONTACT: [](jamiranda@ciencias.ulisboa.pt)
+* AUTHOR: [João A. I. Miranda¹](https://github.com/joanismi/)
+* SUPERVISOR: [Francisco R. Pinto¹](https://github.com/frpinto)
+* CONTACT: jamiranda@ciencias.ulisboa.pt
 
-¹ RNA Systems Biology Lab
+¹ [RNA Systems Biology Lab](https://github.com/GamaPintoLab) 
 
 
 Code to reproduce methods &amp; results from my Master's Thesis Project.
+I will add a link to the final document as soon as it is officially published.
 
+To reproduce this project just clone or download this repository and create a Python virtual environment.
+To learn how to create a virtual environment refer to [creating a virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment).
 
-If you use our data or analysis in your research, please cite our research article!
-
+If you use our data or analysis in your research, please cite us!
 
 ## System Requirements
 Our code was run using the following software:
@@ -19,17 +21,17 @@ Our code was run using the following software:
 - R version 4.1.2
 
 #### Python packages to install:
+See requirements.txt
 
+To install all packages using this file just type
+```
+pip install requirements.txt
+```
+inside your python virtual environment
 
 #### R packages to install:
-
+---
 
 ## Analysis notebooks:
-The notebooks in the `src` directory can be used to generate all data  
-The notebook 0_reproduce_results_from_raw_data.ipynb is a good starting place if one wants to explore our data themselves. More detailed versions of our analysis code is contained in the following notebooks:
-- Ig_genes.ipynb details how we determined which genes fall in the immunoglobulin loci, to remove them from downstream analyses.
-- 4a_puritywork-published.ipynb contains our analysis of sample purity (% tumor cells in sample) using our Bayesian purity model. It also contains the code to generate Fig. 2a from our paper. 
-- 4d_limma.ipynb contains our limma-voom differential expression analysis comparing malignant or pre-malignant pseudobulk samples vs. normal pseudobulk samples.
-- 5_NMF_rawdata-moreHVG-published.ipynb contains code related to generating the input data for SignatureAnalyzer and our analysis of SignatureAnalyzer results, including Figs. 3a-d from our paper.
-- 5b_heterogeneity.ipynb contains code for analyzing the heterogeneity of signature expression within tumor samples, including Fig. 4c from our paper.
-- helper_functions_published.py contains functions that are used throughout the other notebooks included in the repo.
+The notebooks in the `src` directory can be used to generate the data required to create all figures in present in the thesis:
+- 1_gene_expression_analysis.ipynb: this notebook covers Methods section 2.2 and Results section 3.1.
