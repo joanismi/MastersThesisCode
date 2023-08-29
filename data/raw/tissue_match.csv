@@ -1,0 +1,70 @@
+tissue,gtex,consensus
+adipose_tissue,Adipose - Subcutaneous,adipose tissue
+adipose_tissue,Adipose - Visceral (Omentum),
+adrenal_gland,Adrenal Gland,adrenal gland
+appendix,,appendix
+artery,Artery - Aorta,
+artery,Artery - Coronary,
+artery,Artery - Tibial,
+bladder,Bladder,urinary bladder
+blood,Whole Blood,
+bone,,bone marrow
+brain,Brain - Amygdala,amygdala
+brain,Brain - Anterior cingulate cortex (BA24),basal ganglia
+brain,Brain - Caudate (basal ganglia),cerebellum
+brain,Brain - Cerebellar Hemisphere,cerebral cortex
+brain,Brain - Cerebellum,choroid plexus
+brain,Brain - Cortex,hippocampal formation
+brain,Brain - Frontal Cortex (BA9),hypothalamus
+brain,Brain - Hippocampus,medulla oblongata
+brain,Brain - Hypothalamus,midbrain
+brain,Brain - Nucleus accumbens (basal ganglia),pons
+brain,Brain - Putamen (basal ganglia),thalamus
+brain,Brain - Substantia nigra,white matter
+breast,Breast - Mammary Tissue,breast
+cervix,Cervix - Ectocervix,cervix
+cervix,Cervix - Endocervix,
+colorectum,Colon - Sigmoid,colon
+colorectum,Colon - Transverse,rectum
+epididymis,,epididymis
+eye,,retina
+fallopian_tube,Fallopian Tube,fallopian tube
+fibroblasts,Cells - Cultured fibroblasts,
+gallbladder,,gallbladder
+heart,Heart - Atrial Appendage,heart muscle
+heart,Heart - Left Ventricle,
+kidney,Kidney - Cortex,kidney
+kidney,Kidney - Medulla,
+liver,Liver,liver
+lung,Lung,lung
+lymph_node,,lymph node
+lymphocytes,Cells - EBV-transformed lymphocytes,
+nerve,Nerve - Tibial,
+oesophagus,Esophagus - Gastroesophageal Junction,esophagus
+oesophagus,Esophagus - Mucosa,
+oesophagus,Esophagus - Muscularis,
+olfactory_bulb,,olfactory bulb
+ovary,Ovary,ovary
+pancreas,Pancreas,pancreas
+parathyroid_gland,,parathyroid gland
+pituitary_gland,Pituitary,pituitary gland
+placenta,,placenta
+prostate,Prostate,prostate
+salivary_gland,Minor Salivary Gland,salivary gland
+seminal_vesicle,,seminal vesicle
+skeletal_muscle,Muscle - Skeletal,skeletal muscle
+skin,Skin - Not Sun Exposed (Suprapubic),skin
+skin,Skin - Sun Exposed (Lower leg),
+small_intestine,Small Intestine - Terminal Ileum,small intestine
+small_intestine,,duodenum
+smooth_muscle,,smooth muscle
+spinal_cord,Brain - Spinal cord (cervical c-1),spinal cord
+spleen,Spleen,spleen
+stomach,Stomach,stomach
+testis,Testis,testis
+thymus,,thymus
+thyroid,Thyroid,thyroid gland
+tongue,,tongue
+tonsil,,tonsil
+uterus,Uterus,endometrium
+vagina,Vagina,vagina
