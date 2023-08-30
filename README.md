@@ -35,3 +35,4 @@ inside your python virtual environment
 ## Analysis notebooks:
 The notebooks in the `src` directory can be used to generate the data required to create all figures in present in the thesis:
 - 1_gene_expression_analysis.ipynb: this notebook covers Methods section 2.2 and Results section 3.1.
+- 2_organotropism_pairs.ipynb: this notebook covers Methods section 2.6 and Results section 3.2.
