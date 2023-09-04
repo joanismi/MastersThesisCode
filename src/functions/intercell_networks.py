@@ -175,7 +175,6 @@ def build_random_intercell_networks(
     weights=False,
     extra_labels=None,
     iterations=1000,
-    random_state=None,
     n_jobs=1
     ):
     """
@@ -277,8 +276,7 @@ def build_random_intercell_networks(
                         t1_ngenes,
                         t2_ngenes,
                         gene_weights,
-                        directed_graph,
-                        random_state) for i in range(iterations))
+                        directed_graph) for i in range(iterations))
 
                 if directed_graph is True:
 
@@ -326,14 +324,12 @@ def build_random_intercell_networks(
 
 
 def build_random_grouped_intercell_networks(
-    tissues,
     calls,
     interactions,
     directed_graph=False,
     weights=False,
     extra_labels=None,
     iterations=1000,
-    random_state=None,
     n_jobs=1
     ):
     """
@@ -341,7 +337,6 @@ def build_random_grouped_intercell_networks(
 
     Parameters:
     -----------
-    tissues :
 
     calls :
 
@@ -399,7 +394,6 @@ def build_random_grouped_intercell_networks(
     else:
         gene_weights = None
     
-
     tissues = calls.columns
     pairs = itertools.combinations(tissues, 2)
     
@@ -407,9 +401,6 @@ def build_random_grouped_intercell_networks(
     for p in pairs:
         t1=p[0]
         t2=p[1]
-
-        # using an iterable to index guarantees that
-        # it always returns an iterable
                 
         t1_genes = calls[t1].dropna().index.to_series()
         t2_genes = calls[t2].dropna().index.to_series()
@@ -430,8 +421,7 @@ def build_random_grouped_intercell_networks(
             t1_ngenes,
             t2_ngenes,
             gene_weights,
-            directed_graph,
-            random_state) for _ in range(iterations))
+            directed_graph) for _ in range(iterations))
         
         if directed_graph:
 
@@ -481,22 +471,22 @@ def random_inters(
     t1_ngenes,
     t2_ngenes,
     weights=None,
-    directed_graph=False,
-    random_state=None
+    directed_graph=False
     ):
     """
     Generates a undirected random intercellular interaction
     network between 2 pairs of tissues and counts the number of
     established interactions. 
     """
-    rng = np.random.default_rng(random_state)
+    rng = np.random.default_rng()
     t1_genes = []
     t2_genes = []
     
     if weights is None:
-        weights = [None for _ in range(len(gene_pools))]
-    
+        weights = [None] * len(gene_pools)
+
     for pool, w, t1, t2 in zip(gene_pools, weights, t1_ngenes, t2_ngenes):
+               
         t1_genes.extend(rng.choice(pool, t1, replace=False, p=w))
         t2_genes.extend(rng.choice(pool, t2, replace=False, p=w))
     
@@ -684,7 +674,6 @@ def jaccard_index(pair, calls, interactions, intersection, direction=False):
 
 
 def weighted_intercell_network(
-    pair,
     weights,
     interactions,
     direction=False,
@@ -721,116 +710,119 @@ def weighted_intercell_network(
         weighted network with defined conditions.
 
     """
+
     records = []
-    t1 = pair[0]
-    t2 = pair[1]
+    pair_ids = itertools.combinations(weights.columns.to_list(), 2)
     
-    t1_weights = weights[t1]
-    t2_weights = weights[t2]
-    
-    if direction is False:
-        t1_to_t2 = pd.merge(
-            interactions,
-            t1_weights,
-            left_on='source',
-            right_on='Gene name')
-        t1_to_t2 = pd.merge(
-            t1_to_t2,
-            t2_weights,
-            left_on='target',
-            right_on='Gene name')
+    for pair in pair_ids:
 
-        t2_to_t1 = pd.merge(
-            interactions,
-            t2_weights,
-            left_on='source',
-            right_on='Gene name')
-        t2_to_t1 = pd.merge(
-            t2_to_t1,
-            t1_weights,
-            left_on='target',
-            right_on='Gene name')
-
-        t2_to_t1.rename(dict(
-                source='target',
-                target='source'), axis=1, inplace=True)
+        t1 = pair[0]
+        t2 = pair[1]
         
-        # build graph
-        graph = pd.concat([t1_to_t2, t2_to_t1], ignore_index=True)
-
-        # compute interaction weight
-        graph['product'] = graph[t1]*graph[t2]
-        graph['min'] = graph[[t1, t2]].agg(func='min', axis=1)
+        t1_weights = weights[t1]
+        t2_weights = weights[t2]
+        
+        if direction is False:
+            t1_to_t2 = pd.merge(
+                interactions,
+                t1_weights,
+                left_on='source',
+                right_on='gene_id')
+            t1_to_t2 = pd.merge(
+                t1_to_t2,
+                t2_weights,
+                left_on='target',
+                right_on='gene_id')
     
-        # simplify graph
-        simp_graph = graph.drop_duplicates(subset=['source', 'target'])
-        for w in ['product', 'min']:
+            t2_to_t1 = pd.merge(
+                interactions,
+                t2_weights,
+                left_on='source',
+                right_on='gene_id')
+            t2_to_t1 = pd.merge(
+                t2_to_t1,
+                t1_weights,
+                left_on='target',
+                right_on='gene_id')
+    
+            t2_to_t1.rename(dict(
+                    source='target',
+                    target='source'), axis=1, inplace=True)
+            
+            # build graph
+            graph = pd.concat([t1_to_t2, t2_to_t1], ignore_index=True)
+    
+            # compute interaction weight
+            graph['weight'] = graph[t1]*graph[t2]
+            #graph['min'] = graph[[t1, t2]].agg(func='min', axis=1)
+        
+            # simplify graph
+            simp_graph = graph.drop_duplicates(subset=['source', 'target'])
+            
             record = dict(
-                tissue1=t1,
-                tissue2=t2,
-                interaction_weight=w,
-                value=simp_graph[w].sum(),
+                cancer_tissue=t1,
+                metastasis_tissue=t2,
+                weight_sum=simp_graph['weight'].sum(),
             )
-
+    
             if extra_labels is not None:
-
+    
                 for k, v in extra_labels:
                     record[k] = v
-
-            records.append(record)
-            
-    else:
-        t1_to_t2 = pd.merge(
-            interactions,
-            t1_weights,
-            left_on='source',
-            right_on='Gene name')
-        t1_to_t2 = pd.merge(
-            t1_to_t2,
-            t2_weights,
-            left_on='target',
-            right_on='Gene name')
-
-        t1_to_t2['direction'] = [
-            direction[0] for i in range(t1_to_t2.shape[0])]
     
-        t2_to_t1 = pd.merge(
-            interactions,
-            t2_weights,
-            left_on='source',
-            right_on='Gene name')
-        t2_to_t1 = pd.merge(
-            t2_to_t1,
-            t1_weights,
-            left_on='target',
-            right_on='Gene name')
-
-        t2_to_t1['direction'] = [
-            direction[1] for i in range(t2_to_t1.shape[0])]
-        t2_to_t1.rename(dict(
-            source='target',
-            target='source'), axis=1, inplace=True)
+            records.append(record)
+                
+        else:
+            t1_to_t2 = pd.merge(
+                interactions,
+                t1_weights,
+                left_on='source',
+                right_on='gene_id')
+            t1_to_t2 = pd.merge(
+                t1_to_t2,
+                t2_weights,
+                left_on='target',
+                right_on='gene_id')
+    
+            t1_to_t2['direction'] = [
+                direction[0] for i in range(t1_to_t2.shape[0])]
         
-        # build graph
-        graph = pd.concat([t1_to_t2, t2_to_t1], ignore_index=True)
-        
-        # compute interaction weight
-        graph['product'] = graph[t1]*graph[t2]
-        graph['min'] = graph[[t1, t2]].agg(func='min', axis=1)
-        
-        # directed graph
-        dir_graph = graph.drop_duplicates(
-            subset=['source', 'target'], keep=False)
-
-        for w in ['product', 'min']:
+            t2_to_t1 = pd.merge(
+                interactions,
+                t2_weights,
+                left_on='source',
+                right_on='gene_id')
+            t2_to_t1 = pd.merge(
+                t2_to_t1,
+                t1_weights,
+                left_on='target',
+                right_on='gene_id')
+    
+            t2_to_t1['direction'] = [
+                direction[1] for i in range(t2_to_t1.shape[0])]
+            t2_to_t1.rename(dict(
+                source='target',
+                target='source'), axis=1, inplace=True)
+            
+            # build graph
+            graph = pd.concat([t1_to_t2, t2_to_t1], ignore_index=True)
+            
+            # compute interaction weight
+            graph['weight'] = graph[t1]*graph[t2]
+            #graph['min'] = graph[[t1, t2]].agg(func='min', axis=1)
+            
+            # directed graph
+            dir_graph = graph.drop_duplicates(
+                subset=['source', 'target'], keep=False)
+    
+            
             for d in direction:
                 
                 record = dict(
-                    tissue1=t1,
-                    tissue2=t2,
-                    interaction_weight=w,
+                    cancer_tissue=t1,
+                    metastasis_tissue=t2,
                     direction=d,
-                    value=dir_graph[dir_graph.direction==d][w].sum(),
+                    weight_sum=dir_graph.loc[(dir_graph.direction==d), 'weight'].sum(),
                 )
                 
                 if extra_labels is not None:
@@ -847,7 +839,7 @@ def random_grouped_weighted_intercell_networks(
     interactions,
     direction=False,
     iterations=1000,
-    n_jobs=1,
+    n_jobs=-1,
     extra_labels=None
 ):
     
@@ -875,23 +867,23 @@ def random_grouped_weighted_intercell_networks(
                 interactions,
                 t1_weights,
                 left_on='source',
-                right_on='Gene name')
+                right_on='gene_id')
             t1_to_t2 = pd.merge(
                 t1_to_t2,
                 t2_weights,
                 left_on='target',
-                right_on='Gene name')
+                right_on='gene_id')
 
             t2_to_t1 = pd.merge(
                 interactions,
                 t2_weights,
                 left_on='source',
-                right_on='Gene name')
+                right_on='gene_id')
             t2_to_t1 = pd.merge(
                 t2_to_t1,
                 t1_weights,
                 left_on='target',
-                right_on='Gene name')
+                right_on='gene_id')
 
             t2_to_t1.rename(dict(
                     source='target',
@@ -934,12 +926,12 @@ def random_grouped_weighted_intercell_networks(
                 interactions,
                 t1_weights,
                 left_on='source',
-                right_on='Gene name')
+                right_on='gene_id')
             t1_to_t2 = pd.merge(
                 t1_to_t2,
                 t2_weights,
                 left_on='target',
-                right_on='Gene name')
+                right_on='gene_id')
 
             t1_to_t2['direction'] = [
                 direction[0] for i in range(t1_to_t2.shape[0])]
@@ -948,12 +940,12 @@ def random_grouped_weighted_intercell_networks(
                 interactions,
                 t2_weights,
                 left_on='source',
-                right_on='Gene name')
+                right_on='gene_id')
             t2_to_t1 = pd.merge(
                 t2_to_t1,
                 t1_weights,
                 left_on='target',
-                right_on='Gene name')
+                right_on='gene_id')
 
             t2_to_t1['direction'] = [
                 direction[1] for i in range(t2_to_t1.shape[0])]

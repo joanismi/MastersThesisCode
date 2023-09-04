@@ -25,7 +25,7 @@ See requirements.txt
 
 To install all packages using this file just type
 ```
-pip install -r requirements.txt
+pip install requirements.txt
 ```
 inside your python virtual environment
 
@@ -33,6 +33,8 @@ inside your python virtual environment
 ---
 
 ## Analysis notebooks:
-The notebooks in the `src` directory can be used to generate the data required to create all figures in present in the thesis:
-- 1_gene_expression_analysis.ipynb: this notebook covers Methods section 2.2 and Results section 3.1.
+The notebooks in the `src` directory can be used to generate the data required to create all figures in present in the thesis. Just run the notebooks in the following order:
+- 1_gene_expression_analysis.ipynb: this notebook covers Methods sections 2.2 - 2.5 and subsection 2.7.2 and Results section 3.1.
 - 2_organotropism_pairs.ipynb: this notebook covers Methods section 2.6 and Results section 3.2.
+- 3_intercell_data_analysis.ipynb: this notebook covers Methods subsection 2.7.1
+- 4_intercell_networks.ipynb: this notebook covers Methods subsections 2.7.3  -2.7.5 and Results section 3.3
