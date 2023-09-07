@@ -2,6 +2,9 @@ import numpy as np
 import os
 import pandas as pd
 from scipy import stats
+from statsmodels.stats import multitest
+from joblib import Parallel, delayed
+from tqdm.notebook import tqdm
 
 def check_dir(dir):
     if os.path.exists(dir) and os.path.isdir(dir):
@@ -76,7 +79,7 @@ def tuckeys_fences(s, fence='upper', k=1.5, require_upper_outlier=True):
     return outliers
 
 
-def spearman_corr(df, group_cols, y_cols, x_col, alternative='greater'):
+def spearman_corr(df, corr_cols, alternative='two-sided'):
     """
     Computes the Spearman Rank Correlation Coefficient (SRCC).
     
@@ -113,40 +116,65 @@ def spearman_corr(df, group_cols, y_cols, x_col, alternative='greater'):
         have the SRCC and p-values for that variable.
     """
     
-    def func(df, y_cols, x_col, alternative='greater'):
-        cols = y_cols + [x_col]
+    rho, pval = stats.spearmanr(df[corr_cols], alternative=alternative)
 
-        rho, pval = stats.spearmanr(df[cols], alternative=alternative)
-        rho_s = pd.DataFrame(rho, index=cols, columns=cols).loc[
-            [x_col], y_cols].rename({x_col:'coefficient'})
-        pval_s = pd.DataFrame(pval, index=cols, columns=cols).loc[
-            [x_col], y_cols].rename({x_col:'p_value'})
+    return pd.Series({'coefficient': rho, 'pvalue': pval})
         
-        spearman =  pd.concat([rho_s, pval_s])
-        spearman.index.rename('spearman', inplace=True)
-        return spearman
+
+def perm_test(x, y, alternative= 'greater', n_permutations=1000):
+    """
+    Computes a permutation test on the difference of means
+    """
+    def statistic(x, y, axis=None):
+        mean_diff = np.mean(x, axis=axis) - np.mean(y, axis=axis)
+        return mean_diff
+        
+    res = stats.permutation_test(
+        [x, y],
+        statistic,
+        alternative=alternative,
+        n_resamples=n_permutations
+    )
+
+    return res.statistic, res.pvalue
+
+
+def mannwhitney_test(array, x_index, y_index, fdr_corr=True, perm_test=False, n_jobs=8):
+    """
+    Performs a Mann-Whitney U test on an array.
+    """
     
-    # the spearmanr function returns a correlation matrix:
-    # | index1 | index2 |...| variables |   x   |   y1  |   y2  |
-    # |   k1   |   k2   |...|     x     |   1   | corr1 | corr2 |
-    # |   k1   |   k2   |...|     y1    | corr1 |   1   |   v   |
-    # |   k1   |   k2   |...|     y2    | corr2 |   v   |   1   |
-    # we are interested the correlation values for each y
-    # variable in the columns by setting the x variable in the
-    # the variable column and dropping the x column
-    # we don't need the correlation between the y variables (v)
+    x = array[x_index,:]
+    y = array[y_index,:]
+    
+    mannwhitney = stats.mannwhitneyu(x, y, axis=0)[1]
+    if fdr_corr is True:
+        result = multitest.fdrcorrection(mannwhitney)[1]
+    else:
+        result = mannwhitney
+        
+    def permutation_test(array, x_index, y_index):
+        rng = np.random.default_rng()
+        a = rng.permutation(array, axis=0)
+        x = a[x_index,:]
+        y = a[y_index,:]
+    
+        mannwhitney = stats.mannwhitneyu(x, y, axis=0)[1]
+        mannwhitney_corr = multitest.fdrcorrection(mannwhitney)[1]
 
-    grouped_df = df.groupby(group_cols)
-    kwargs=dict(
-        y_cols=y_cols, 
-        x_col=x_col,
-        alternative=alternative
-        )
-
-    spearman = grouped_df.apply(func, **kwargs).reset_index()
-
-    return spearman
-
-
-
-
+        return mannwhitney_corr
+        
+    if perm_test is False:
+        return result
+    else:
+        perm_list = Parallel(
+            n_jobs=n_jobs
+            )(delayed(permutation_test)(
+                array,
+                x_index,
+                y_index) for i in tqdm(range(perm_test))
+                )
+        
+        perm_array = np.array(perm_list)
+        
+        return result, perm_array

@@ -911,7 +911,7 @@ def random_grouped_weighted_intercell_networks(
                 'dist': distribution,
                 'mean': mean,
                 'std': std,
-                'z_score': (value-mean)/std
+                'zscore': (value-mean)/std
             }
             if extra_labels is not None:
 
@@ -981,7 +981,7 @@ def random_grouped_weighted_intercell_networks(
                     'dist': distribution,
                     'mean': mean,
                     'std': std,
-                    'z_score': (value-mean)/std
+                    'zscore': (value-mean)/std
                 }
                 if extra_labels is not None:
 
