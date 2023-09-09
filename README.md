@@ -38,4 +38,5 @@ The notebooks in the `src` directory can be used to generate the data required t
 - 2_organotropism_pairs.ipynb: this notebook covers Methods section 2.6 and Results section 3.2.
 - 3_intercell_data_analysis.ipynb: this notebook covers Methods subsection 2.7.1
 - 4_intercell_networks.ipynb: this notebook covers Methods subsections 2.7.3 - 2.7.5 and Results section 3.3
-- 5_intercell_interactions_analysis: this notebook covers Methods section 2.8 and Results section 3.4
+- 5_intercell_interactions_analysis.ipynb: this notebook covers Methods section 2.8 and Results section 3.4
+- 6_intracell_network.ipynb: this notebook covers Methods 2.9 and Results sction 3.5
