@@ -109,10 +109,5 @@ ENV/
 images/
 other_files/
 data/processed/
-data/enrichment_analysis/
-data/gene_expression_data/
-data/intercell_interactions_analysis/
-data/intercell_networks/
-data/intracell_networks/
-data/organotropism_pairs/
+data/raw/
 code/
