@@ -21,26 +21,30 @@ Our code was run using the following software:
 - R version 4.1.2
 
 #### Python packages to install:
+
 See requirements.txt
 
 To install all packages using this file just type
 ```
 pip install requirements.txt
 ```
-inside your python virtual environment
+inside your python virtual environment.
 
 #### R packages to install:
+
 To install the IRkernel to run R in notebooks follow these [instructions](https://irkernel.github.io/installation/).
+
 Required packages can be installed using notebook 7.
+
 ---
 
 ## Analysis notebooks:
 The notebooks in the `src` directory can be used to generate the data required to create all figures in present in the thesis. Just run the notebooks in the following order:
-- 1_gene_expression_analysis.ipynb: this Python notebook covers Methods sections 2.2 - 2.5 and subsection 2.7.2 and Results section 3.1.
-- 2_organotropism_pairs.ipynb: this Python notebook covers Methods section 2.6 and Results section 3.2.
-- 3_intercell_data_analysis.ipynb: this Python notebook covers Methods subsection 2.7.1.
-- 4_intercell_networks.ipynb: this Python notebook covers Methods subsections 2.7.3 - 2.7.5 and Results section 3.3.
-- 5_intercell_interactions_analysis.ipynb: this Python notebook covers Methods section 2.8 and Results section 3.4.
-- 6_intracell_network.ipynb: this Python notebook covers Methods 2.9 and Results section 3.5.
-- 7_go_enrichment_analysis.ipynb: this R notebook covers Results subsection 3.5.2.
-- 8_cdg_enrichment_analysis.ipynb: this Python notebook covers Results subsection 3.5.1.
+- *1_gene_expression_analysis.ipynb*: this Python notebook covers Methods sections 2.2 - 2.5 and subsection 2.7.2 and Results section 3.1.
+- *2_organotropism_pairs.ipynb*: this Python notebook covers Methods section 2.6 and Results section 3.2.
+- *3_intercell_data_analysis.ipynb*: this Python notebook covers Methods subsection 2.7.1.
+- *4_intercell_networks.ipynb*: this Python notebook covers Methods subsections 2.7.3 - 2.7.5 and Results section 3.3.
+- *5_intercell_interactions_analysis.ipynb*: this Python notebook covers Methods section 2.8 and Results section 3.4.
+- *6_intracell_network.ipynb*: this Python notebook covers Methods 2.9 and Results section 3.5.
+- *7_go_enrichment_analysis.ipynb*: this R notebook covers Results subsection 3.5.2.
+- *8_cdg_enrichment_analysis.ipynb*: this Python notebook covers Results subsection 3.5.1.
